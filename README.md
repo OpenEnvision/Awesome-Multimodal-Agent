@@ -286,6 +286,18 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | OpenComputer | 2026 | [paper](https://arxiv.org/abs/2605.19769) | Verifiable software worlds with state verifiers, task generation, and auditable rewards. |
 | CutVerse | 2026 | [paper](https://arxiv.org/abs/2605.19484) | Benchmark for professional media post-production editing with dense multimodal GUIs. |
 | Agent JIT Compilation | 2026 | [paper](https://arxiv.org/abs/2605.21470) | Compiles web-agent plans into lower-latency executable schedules. |
+| Weblica | 2026 | [paper](https://arxiv.org/abs/2605.06761) | Reproducible web-replica environments for scaling visual web-agent training. |
+| TClone | 2026 | [paper](https://arxiv.org/abs/2605.17320) | Low-latency live GUI environment forking for parallel CUA rollouts and what-if execution. |
+| PANDO | 2026 | [paper](https://arxiv.org/abs/2605.24785) | Online skill distillation that reduces token and action overhead for multimodal web agents. |
+| SimuWoB | 2026 | [paper](https://arxiv.org/abs/2605.25160) | Synthetic realistic mobile-app benchmark for fast, faithful GUI-agent evaluation. |
+| CUA-Gym | 2026 | [paper](https://arxiv.org/abs/2605.25624) | Scalable generation of verifiable environments, tasks, rewards, and models for CUA RLVR. |
+| MobileGym | 2026 | [paper](https://arxiv.org/abs/2605.26114) | Parallel mobile GUI-agent simulator with structured state, deterministic judges, and RL rewards. |
+| AndroidDaily | 2026 | [paper](https://arxiv.org/abs/2605.27761) | Real-world closed-source Android benchmark with process-aware visual trajectory grading. |
+| LearnWeak | 2026 | [paper](https://arxiv.org/abs/2605.28775) | Student-aware data synthesis and specialization for small computer-use agents. |
+| PRO-CUA | 2026 | [paper](https://arxiv.org/abs/2605.29119) | Step-level process-reward optimization for computer-use agents on live web tasks. |
+| GUITestScape | 2026 | [paper](https://arxiv.org/abs/2605.29532) | Open-set exploratory GUI testing benchmark for MLLM agents. |
+| Multi-Agent Computer Use | 2026 | [paper](https://arxiv.org/abs/2606.01533) | Multi-agent CUA architecture with DAG decomposition, parallel execution, and replanning. |
+| OpenWebRL | 2026 | [paper](https://arxiv.org/abs/2606.02031) | Online multi-turn RL framework for training open visual web agents on live websites. |
 
 [Back to top](#top)
 
@@ -315,6 +327,10 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | VLA-REPLICA | 2026 | [paper](https://arxiv.org/abs/2605.20774) | Low-cost reproducible real-world evaluation benchmark for VLA models. |
 | Spatial Memory for Out-of-Vision Manipulation | 2026 | [paper](https://arxiv.org/abs/2605.22283) | Adds persistent spatial memory when manipulation targets leave the current camera view. |
 | Pre-VLA | 2026 | [paper](https://arxiv.org/abs/2605.22446) | Preemptive runtime verification for VLA actions and world-model rollouts. |
+| ActQuant | 2026 | [paper](https://arxiv.org/abs/2605.24011) | Action-guided mixed-precision quantization for deploying VLA models on constrained hardware. |
+| Continuous Reasoning for VLA | 2026 | [paper](https://arxiv.org/abs/2606.00229) | Replaces token-style reasoning with shareable continuous latents aligned to action chunks. |
+| VLAMotor | 2026 | [paper](https://arxiv.org/abs/2606.00053) | Test-guided failure discovery and agent-based synthetic data repair for VLA models. |
+| FATE-VLA | 2026 | [paper](https://arxiv.org/abs/2606.02307) | Adaptive failure-aware test generation that searches high-risk embodied scenes for VLA failures. |
 
 [Back to top](#top)
 
@@ -372,6 +388,13 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | Emergent Communication between Heterogeneous Visual Agents | 2026 | [paper](https://arxiv.org/abs/2605.11695) | Studies decentralized communication when visual agents have private representations. |
 | MMSkills | 2026 | [paper](https://arxiv.org/abs/2605.13527) | Multimodal procedural skill packages for reusable visual-agent decision making. |
 | Visual Agentic Memory | 2026 | [paper](https://arxiv.org/abs/2605.16481) | Training-free visual memory for online indexing, retrieval, and evidence verification. |
+| MemEye | 2026 | [paper](https://arxiv.org/abs/2605.15128) | Visual-centric evaluation framework for long-term multimodal agent memory. |
+| Diversity Over Frequency | 2026 | [paper](https://arxiv.org/abs/2606.00096) | Studies tool-use collapse and rollout diversity in visual Chain-of-Thought agents. |
+| VESTA | 2026 | [paper](https://arxiv.org/abs/2606.00384) | Scientific visual exploration agent with dynamically generated statistical tools. |
+| CV-Arena | 2026 | [paper](https://arxiv.org/abs/2606.00931) | Instructional computer-vision benchmark with agentic planning, editing, and verification. |
+| Visual Skills | 2026 | [paper](https://arxiv.org/abs/2606.01414) | Multimodal reusable skill paradigm preserving visual evidence and spatial interaction traces. |
+| TVIR | 2026 | [paper](https://arxiv.org/abs/2606.02320) | Text-visual interleaved deep-research benchmark and hierarchical multimodal report agent. |
+| Active Exploring like a Pigeon | 2026 | [paper](https://arxiv.org/abs/2606.02459) | Agentic spatial reasoning with dynamic cognitive maps and verifiable spatial assertion codes. |
 
 [Back to top](#top)
 
@@ -403,6 +426,10 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | WARD | 2026 | [paper](https://arxiv.org/abs/2605.15030) | Robust defense for web agents against prompt injection in HTML and visual interfaces. |
 | ProjGuard | 2026 | [paper](https://arxiv.org/abs/2605.13631) | Safety monitoring for computer-use agents via low-dimensional projections. |
 | Pre-VLA | 2026 | [paper](https://arxiv.org/abs/2605.22446) | Runtime verification for risky VLA action generation and imagined rollouts. |
+| AgentHijack | 2026 | [paper](https://arxiv.org/abs/2605.25707) | Benchmarks CUA robustness to realistic environment corruptions rather than direct adversarial prompts. |
+| ROGUE | 2026 | [paper](https://arxiv.org/abs/2606.00341) | Corrigibility benchmark showing unsafe behavior can arise during ordinary computer-use tasks. |
+| SafeVLA-Bench | 2026 | [paper](https://arxiv.org/abs/2606.00773) | Post-hoc safety benchmark exposing unsafe-success cases in VLA manipulation rollouts. |
+| FATE-VLA | 2026 | [paper](https://arxiv.org/abs/2606.02307) | Failure-seeking VLA test generation for robustness evaluation before deployment. |
 
 [Back to top](#top)
 
@@ -462,6 +489,18 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | Embodied | LIBERO | [code](https://github.com/Lifelong-Robot-Learning/LIBERO) | Lifelong robot manipulation tasks. |
 | Embodied | RLBench | [code](https://github.com/stepjam/RLBench) | Simulation-based manipulation benchmark. |
 | Embodied | VLA-REPLICA | [paper](https://arxiv.org/abs/2605.20774) | Low-cost reproducible real-world VLA evaluation. |
+| Web | Weblica | [paper](https://arxiv.org/abs/2605.06761) | Scalable reproducible web-replica environments for visual web-agent training. |
+| Web | CUA-Gym | [paper](https://arxiv.org/abs/2605.25624) | Verifiable RLVR task/environment/reward generation for computer-use agents. |
+| Web | OpenWebRL | [paper](https://arxiv.org/abs/2606.02031) | Online multi-turn RL framework for live visual web agents. |
+| Mobile | SimuWoB | [paper](https://arxiv.org/abs/2605.25160) | Synthetic high-fidelity mobile apps with automatic rewards. |
+| Mobile | MobileGym | [paper](https://arxiv.org/abs/2605.26114) | Highly parallel mobile GUI simulator with deterministic state-based judging. |
+| Mobile | AndroidDaily | [paper](https://arxiv.org/abs/2605.27761) | Closed-source real-app Android benchmark with visual process evaluation. |
+| Desktop | TClone | [paper](https://arxiv.org/abs/2605.17320) | Low-latency forking of live GUI environments for CUA execution and evaluation. |
+| GUI testing | GUITestScape | [paper](https://arxiv.org/abs/2605.29532) | Open-set exploratory GUI testing with interaction and display defects. |
+| Visual-agent memory | MemEye | [paper](https://arxiv.org/abs/2605.15128) | Evaluates whether multimodal agent memory preserves visual evidence. |
+| Visualization | VESTA / DAWN | [paper](https://arxiv.org/abs/2606.00384) | Statistical modeling benchmark and visual tool-agent framework. |
+| Visual editing | CV-Arena | [paper](https://arxiv.org/abs/2606.00931) | Instructional computer-vision task benchmark with human-AI preference evaluation. |
+| Embodied safety | SafeVLA-Bench | [paper](https://arxiv.org/abs/2606.00773) | Success-safety gap evaluation for VLA manipulation policies. |
 
 [Back to top](#top)
 
