@@ -163,10 +163,15 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | [Mag-VLA](https://arxiv.org/abs/2605.28486) | 2026-05-27 | Bimanual magnetically actuated microrobot manipulation with a VLA policy. |
 | [MaskClaw](https://arxiv.org/abs/2605.28646) | 2026-05-27 | Edge-side personalized privacy arbitration and skill evolution for screenshot-based GUI agents. |
 | [GenClaw](https://arxiv.org/abs/2605.30248) | 2026-05-28 | Code-driven agentic image generation with reasoning, executable sketches, and generative refinement. |
+| [Qwen-VLA](https://arxiv.org/abs/2605.30280) | 2026-05-29 | Unified VLA modeling across embodied tasks, environments, and robot embodiments. |
 | [Gaze2Act](https://arxiv.org/abs/2605.30282) | 2026-05-28 | Gaze-conditioned VLA policies for interactive real-robot manipulation. |
 | [DeMaVLA](https://arxiv.org/abs/2605.31286) | 2026-05-29 | VLA foundation model for real-world deformable-object manipulation. |
 | [BraveGuard](https://arxiv.org/abs/2606.01166) | 2026-05-31 | Self-evolving safety defense trained from open-world threats and realistic computer-use trajectories. |
 | [PiL-World](https://arxiv.org/abs/2606.05773) | 2026-06-04 | Chunk-wise world model for closed-loop VLA policy-in-the-loop evaluation. |
+| [GUI-AC](https://arxiv.org/abs/2606.10522) | 2026-06-09 | Continual-learning method for GUI agents using adaptive advantage and dynamic clipping. |
+| [MemVenom](https://arxiv.org/abs/2606.10742) | 2026-06-09 | Triggered poisoning attack against multimodal memories in long-horizon web agents. |
+| [Workflow-GYM](https://arxiv.org/abs/2606.11042) | 2026-06-10 | Long-horizon benchmark for professional GUI workflows across specialized software domains. |
+| [HiViG](https://arxiv.org/abs/2606.11078) | 2026-06-10 | History-aware visually grounded critic for pre-execution CUA action evaluation. |
 | [Learning What to Say to Your VLA](https://arxiv.org/abs/2606.12299) | 2026-06-10 | Test-time language steering for frozen VLA policies with conformal harmlessness control. |
 | [VLGA](https://arxiv.org/abs/2606.12396) | 2026-06-10 | Vision-language-geometry-action model for geometry-grounded autonomous driving. |
 | [Orchestra-o1](https://arxiv.org/abs/2606.13707) | 2026-06-10 | Omnimodal agent orchestration framework with modality-aware decomposition, sub-agent specialization, and parallel execution. |
@@ -174,6 +179,22 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | [PERIA](https://arxiv.org/abs/2606.12830) | 2026-06-11 | Tool-augmented visual agent for spatial reasoning through perception and interaction tools. |
 | [InterleaveThinker](https://arxiv.org/abs/2606.13679) | 2026-06-11 | Multi-agent planner-critic pipeline for interleaved text-image generation. |
 | [ReactVLA](https://arxiv.org/abs/2606.14255) | 2026-06-12 | Low-latency reactive VLA framework for closed-loop robot manipulation. |
+| [Naive Visual Memory is Not Enough](https://arxiv.org/abs/2606.14106) | 2026-06-12 | Failure-mode study of experiential and visual memory in GUI agents. |
+| [LabVLA](https://arxiv.org/abs/2606.13578) | 2026-06-12 | Grounds VLA models in scientific laboratory protocol execution. |
+| [OSGuard](https://arxiv.org/abs/2606.15034) | 2026-06-13 | Safety benchmark for computer-use agents that distinguishes task success from unsafe shortcuts. |
+| [MyPCBench](https://arxiv.org/abs/2606.16748) | 2026-06-15 | Benchmark for personally intelligent computer-use agents over user-specific digital contexts. |
+| [LabOSBench](https://arxiv.org/abs/2606.16802) | 2026-06-15 | Computer-use-agent benchmark for scientific instrument control interfaces. |
+| [ACE-Ego-0](https://arxiv.org/abs/2606.17200) | 2026-06-16 | Unifies egocentric human video and robotic trajectories for VLA pretraining. |
+| [ProCUA-SFT](https://arxiv.org/abs/2606.17321) | 2026-06-16 | Technical report on supervised fine-tuning data and recipes for desktop computer-use agents. |
+| [WeaveLA](https://arxiv.org/abs/2606.17463) | 2026-06-16 | Event-driven latent memory weaving for repetitive long-horizon robot manipulation. |
+| [GeneralVLA-2](https://arxiv.org/abs/2606.17480) | 2026-06-16 | Geometry-aware reconstruction and governed memory for robot planning. |
+| [MuseVLA](https://arxiv.org/abs/2606.17598) | 2026-06-16 | Adaptive multimodal sensing VLA that invokes non-RGB sensors as task tools. |
+| [Qwen-RobotManip](https://arxiv.org/abs/2606.17846) | 2026-06-16 | Qwen-VL-based robotic manipulation foundation model scaled with aligned heterogeneous data. |
+| [PearlVLA](https://arxiv.org/abs/2606.17924) | 2026-06-16 | Progressive embodied action-plan refinement in latent space for efficient VLA deliberation. |
+| [PreAct](https://arxiv.org/abs/2606.17929) | 2026-06-16 | Compiles successful computer-use trajectories into screen-checked state-machine programs. |
+| [ThinkingVLA](https://arxiv.org/abs/2606.17937) | 2026-06-16 | Interleaves visual forecasting and language reasoning for long-horizon robotic manipulation. |
+| [Uncertainty Quantification for Flow-Based VLAs](https://arxiv.org/abs/2606.18043) | 2026-06-16 | Uses velocity-field disagreement for failure detection and active fine-tuning of flow-based VLAs. |
+| [WireCraft](https://arxiv.org/abs/2606.18097) | 2026-06-16 | Industrial deformable-linear-object manipulation benchmark with VLA baselines. |
 
 [Back to top](#top)
 
@@ -321,6 +342,14 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | WebForge | 2026 | [paper](https://arxiv.org/abs/2604.10988), [code](https://github.com/yuandaxia2001/WebForge) | Automated framework for generating scalable, reproducible browser-agent benchmark environments. |
 | AgentLens | 2026 | [paper](https://arxiv.org/abs/2604.20279) | Mobile GUI agent with adaptive visual modalities for human-agent interaction during execution. |
 | SimGym | 2026 | [paper](https://arxiv.org/abs/2605.19219) | Live-browser VLM-agent framework for simulating e-commerce A/B tests. |
+| GUI-AC | 2026 | [paper](https://arxiv.org/abs/2606.10522) | Enhances continual GUI-agent learning with grounding-certainty-aware advantage and clipping. |
+| Workflow-GYM | 2026 | [paper](https://arxiv.org/abs/2606.11042) | Long-horizon benchmark for professional GUI workflows in specialized software environments. |
+| HiViG | 2026 | [paper](https://arxiv.org/abs/2606.11078), [code](https://github.com/G-JWLee/HiViG) | History-aware visually grounded critic for test-time CUA action evaluation. |
+| Naive Visual Memory is Not Enough | 2026 | [paper](https://arxiv.org/abs/2606.14106) | Failure-mode study of visual and experiential memory modules in GUI agents. |
+| MyPCBench | 2026 | [paper](https://arxiv.org/abs/2606.16748) | Evaluates personally intelligent CUAs over user-specific digital context and accounts. |
+| LabOSBench | 2026 | [paper](https://arxiv.org/abs/2606.16802) | Benchmarks CUAs on scientific instrument-control interfaces and feedback loops. |
+| ProCUA-SFT | 2026 | [paper](https://arxiv.org/abs/2606.17321) | Desktop CUA supervised fine-tuning report with trajectory data and training recipes. |
+| PreAct | 2026 | [paper](https://arxiv.org/abs/2606.17929) | Compiles successful screen interaction trajectories into guarded state-machine programs for repeat tasks. |
 
 [Back to top](#top)
 
@@ -363,6 +392,17 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | Learning What to Say to Your VLA | 2026 | [paper](https://arxiv.org/abs/2606.12299) | Searches and distills language feedback policies for steering frozen VLA models. |
 | VLGA | 2026 | [paper](https://arxiv.org/abs/2606.12396) | Adds dense geometry supervision to vision-language-action models for autonomous driving. |
 | ReactVLA | 2026 | [paper](https://arxiv.org/abs/2606.14255) | Fast lightweight reactive robot manipulation via improved mean-flow action generation. |
+| Qwen-VLA | 2026 | [paper](https://arxiv.org/abs/2605.30280) | Unifies embodied decision-making across tasks, environments, and robot embodiments. |
+| LabVLA | 2026 | [paper](https://arxiv.org/abs/2606.13578) | Grounds VLA models in scientific laboratory protocol execution and bench work. |
+| ACE-Ego-0 | 2026 | [paper](https://arxiv.org/abs/2606.17200) | Bridges egocentric human videos and robot trajectories for VLA pretraining. |
+| WeaveLA | 2026 | [paper](https://arxiv.org/abs/2606.17463) | Adds event-driven cross-subtask latent memory for repetitive robot manipulation. |
+| GeneralVLA-2 | 2026 | [paper](https://arxiv.org/abs/2606.17480) | Uses geometry-aware reconstruction and governed memory for robot planning. |
+| MuseVLA | 2026 | [paper](https://arxiv.org/abs/2606.17598) | Treats temperature, audio, radar, and other sensors as on-demand VLA tools. |
+| Qwen-RobotManip | 2026 | [paper](https://arxiv.org/abs/2606.17846) | Scales Qwen-VL-based manipulation models through aligned heterogeneous robot and human data. |
+| PearlVLA | 2026 | [paper](https://arxiv.org/abs/2606.17924) | Refines embodied action plans in latent space with future-guided process rewards. |
+| ThinkingVLA | 2026 | [paper](https://arxiv.org/abs/2606.17937) | Interleaves visual forecasting, inverse reasoning, and action generation for long-horizon manipulation. |
+| Uncertainty Quantification for Flow-Based VLAs | 2026 | [paper](https://arxiv.org/abs/2606.18043), [project](https://tum-lsy.github.io/uq_vla/) | Estimates VLA epistemic uncertainty for failure detection and active fine-tuning. |
+| WireCraft | 2026 | [paper](https://arxiv.org/abs/2606.18097) | Industrial deformable-linear-object manipulation benchmark with shared VLA evaluation. |
 
 [Back to top](#top)
 
@@ -468,6 +508,8 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | ROGUE | 2026 | [paper](https://arxiv.org/abs/2606.00341) | Corrigibility benchmark showing unsafe behavior can arise during ordinary computer-use tasks. |
 | SafeVLA-Bench | 2026 | [paper](https://arxiv.org/abs/2606.00773) | Post-hoc safety benchmark exposing unsafe-success cases in VLA manipulation rollouts. |
 | FATE-VLA | 2026 | [paper](https://arxiv.org/abs/2606.02307) | Failure-seeking VLA test generation for robustness evaluation before deployment. |
+| MemVenom | 2026 | [paper](https://arxiv.org/abs/2606.10742) | Triggered poisoning attack against multimodal memory retrieval in web agents. |
+| OSGuard | 2026 | [paper](https://arxiv.org/abs/2606.15034) | Dual-granularity CUA safety benchmark for unsafe shortcuts under benign instructions. |
 | MIRAGE | 2026 | [paper](https://arxiv.org/abs/2605.28116) | Context-aware prompt injection against mobile GUI agents through user-generated content regions. |
 | MaskClaw | 2026 | [paper](https://arxiv.org/abs/2605.28646) | Edge-side personalized privacy arbitration for GUI agents with behavior-driven skill evolution. |
 | BraveGuard | 2026 | [paper](https://arxiv.org/abs/2606.01166) | Self-evolving guard training loop for safer computer-use-agent trajectories. |
@@ -545,11 +587,17 @@ An item is removed or left out when the visual-agent connection is weak, the lin
 | Embodied safety | SafeVLA-Bench | [paper](https://arxiv.org/abs/2606.00773) | Success-safety gap evaluation for VLA manipulation policies. |
 | Web | WebForge-Bench | [paper](https://arxiv.org/abs/2604.10988), [code](https://github.com/yuandaxia2001/WebForge) | Automatically generated self-contained browser-agent benchmark environments. |
 | Web | SimGym | [paper](https://arxiv.org/abs/2605.19219) | E-commerce A/B-test simulation with traffic-grounded live-browser VLM agents. |
+| Web | MemVenom | [paper](https://arxiv.org/abs/2606.10742) | Memory-poisoning threat model for long-horizon web agents with multimodal retrieval. |
 | GUI game generation | PlaytestArena | [paper](https://arxiv.org/abs/2605.28258), [project](https://continual-game-generation.vercel.app/) | Browser-game generation benchmark evaluated by GUI playtesting agents. |
 | Security | MIRAGE | [paper](https://arxiv.org/abs/2605.28116) | Mobile GUI prompt-injection samples placed in realistic user-generated content. |
+| Safety | OSGuard | [paper](https://arxiv.org/abs/2606.15034) | Computer-use-agent safety benchmark for unsafe shortcuts during normal tasks. |
 | Privacy | MaskClaw | [paper](https://arxiv.org/abs/2605.28646) | Edge-side privacy arbitration benchmark and skill-evolution scenarios for GUI agents. |
 | Privacy | CAPED | [paper](https://arxiv.org/abs/2606.12666) | Context-aware mobile GUI screenshot exposure defense. |
 | Embodied evaluation | PiL-World | [paper](https://arxiv.org/abs/2606.05773) | Closed-loop VLA policy-in-the-loop evaluation with imagined action-conditioned observations. |
+| Desktop | Workflow-GYM | [paper](https://arxiv.org/abs/2606.11042) | Long-horizon GUI workflows in professional software fields. |
+| Desktop | MyPCBench | [paper](https://arxiv.org/abs/2606.16748) | Personal computer-use benchmark with user-specific context and account state. |
+| Scientific instruments | LabOSBench | [paper](https://arxiv.org/abs/2606.16802) | Scientific instrument-control interfaces for computer-use-agent evaluation. |
+| Embodied evaluation | WireCraft | [paper](https://arxiv.org/abs/2606.18097) | Industrial wire and cable manipulation benchmark with VLA policy baselines. |
 
 [Back to top](#top)
 
@@ -637,6 +685,10 @@ These resources are intentionally separated from research papers. They are imple
 | WebForge | browser benchmark generator | [Paper](https://arxiv.org/abs/2604.10988), [code](https://github.com/yuandaxia2001/WebForge) | Automatically generating reproducible browser-agent benchmark environments. |
 | SimGym | e-commerce simulator | [Paper](https://arxiv.org/abs/2605.19219) | Simulating visually driven e-commerce A/B tests with live-browser VLM agents. |
 | PlaytestArena | game-generation benchmark | [Paper](https://arxiv.org/abs/2605.28258), [project](https://continual-game-generation.vercel.app/) | Using GUI agents to playtest generated browser games. |
+| Workflow-GYM | professional GUI benchmark | [Paper](https://arxiv.org/abs/2606.11042) | Evaluating long-horizon computer-use agents in specialized professional software. |
+| MyPCBench | personal CUA benchmark | [Paper](https://arxiv.org/abs/2606.16748) | Testing computer-use agents in personalized digital environments. |
+| LabOSBench | scientific-instrument benchmark | [Paper](https://arxiv.org/abs/2606.16802) | Evaluating computer-use agents on scientific instrument-control workflows. |
+| ProCUA-SFT | desktop CUA data | [Paper](https://arxiv.org/abs/2606.17321) | Supervised fine-tuning data and recipes for desktop computer-use agents. |
 
 ### Embodied and Robotics Tooling
 
@@ -652,6 +704,12 @@ These resources are intentionally separated from research papers. They are imple
 | SafeManip | safety benchmark | [Paper](https://arxiv.org/abs/2605.12386) | Temporal-safety monitors for robotic manipulation rollouts. |
 | ReactVLA | VLA model | [Paper](https://arxiv.org/abs/2606.14255), [project](https://game-loader.github.io/ReactVLA/) | Low-latency reactive VLA policy for real-time robot manipulation. |
 | PiL-World | VLA evaluation | [Paper](https://arxiv.org/abs/2606.05773) | Closed-loop policy-in-the-loop evaluation without executing every rollout on a real robot. |
+| Qwen-VLA | VLA model | [Paper](https://arxiv.org/abs/2605.30280) | Unified embodied decision-making across tasks, environments, and robot embodiments. |
+| Qwen-RobotManip | VLA model | [Paper](https://arxiv.org/abs/2606.17846) | Scaled robotic manipulation foundation model built on Qwen-VL. |
+| LabVLA | laboratory VLA | [Paper](https://arxiv.org/abs/2606.13578) | Grounding VLA models in scientific laboratory protocol execution. |
+| ACE-Ego-0 | VLA pretraining data | [Paper](https://arxiv.org/abs/2606.17200) | Unifying egocentric human video and robot trajectories for VLA pretraining. |
+| MuseVLA | multisensory VLA | [Paper](https://arxiv.org/abs/2606.17598) | Invoking non-RGB sensors as adaptive tools for robotic manipulation. |
+| WireCraft | manipulation benchmark | [Paper](https://arxiv.org/abs/2606.18097) | Industrial deformable-linear-object manipulation benchmark with shared evaluation. |
 
 [Back to top](#top)
 
@@ -747,5 +805,6 @@ If you use this curated index in research or engineering work, please cite it as
 ```
 
 [Back to top](#top)
+
 
 
