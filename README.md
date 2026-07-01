@@ -8,7 +8,6 @@
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 ![Scope](https://img.shields.io/badge/scope-visual%20agents%20%7C%20tool%20use%20%7C%20action-0f766e)
-![Curation](https://img.shields.io/badge/curation-selective%20not%20exhaustive-2563eb)
 ![Updated](https://img.shields.io/badge/updated-2026--07-111827)
 
 </div>
