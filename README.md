@@ -344,6 +344,7 @@ This section keeps visual-understanding work only when it is designed for agents
 | Visual web agents | WebGym | [paper](https://arxiv.org/abs/2601.02439) | Large-scale realistic web-agent training and evaluation environment with rubric-based tasks. |
 | Web agents | WebChain / WebChainBench | [paper](https://arxiv.org/abs/2603.05295) | Human-annotated real-world web interaction traces with aligned visual, structural, and action data. |
 | Web agents | Ego2Web | [paper](https://arxiv.org/abs/2603.22529) | Connects egocentric video understanding with online web-agent execution tasks. |
+| Web agents | ClawBench | [paper](https://arxiv.org/abs/2604.08523), [project](https://claw-bench.com/), [code](https://github.com/reacher-z/ClawBench) | Live production-website tasks for GUI and browser agents with request-interception scoring and five-layer execution traces. |
 | Desktop agents | OSWorld | [paper](https://arxiv.org/abs/2404.07972), [code](https://github.com/xlang-ai/OSWorld) | Open-ended desktop tasks in real OS environments. |
 | Desktop agents | OSWorld 2.0 | [paper](https://arxiv.org/abs/2606.29537) | Long-horizon real-world computer-use workflows with partial scoring and execution auditing. |
 | Desktop agents | Windows Agent Arena | [paper](https://arxiv.org/abs/2409.08264), [code](https://github.com/microsoft/WindowsAgentArena) | Windows-specific OS-agent evaluation. |
