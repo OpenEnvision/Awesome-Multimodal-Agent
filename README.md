@@ -5,7 +5,7 @@
 <div align="center">
 
 # Awesome Multimodal Agents
-<img width="1774" height="887" alt="0ae7821fe9fc5286ec0e8bb5732074d9" src="https://github.com/user-attachments/assets/9dcf8020-f98d-4826-8326-1d3160e0a7f2" />
+<img width="887" height="443" alt="0ae7821fe9fc5286ec0e8bb5732074d9" src="https://github.com/user-attachments/assets/9dcf8020-f98d-4826-8326-1d3160e0a7f2" />
 <p>A curated map of agents that perceive across modalities, reason in a loop, and act on the digital or physical world.</p>
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
