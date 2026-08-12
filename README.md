@@ -75,12 +75,7 @@ Each work is assigned one canonical placement based on its primary evaluated con
 <details>
 <summary><strong>Project updates</strong></summary>
 
-<p><strong>2026-08-11</strong> — Audited primary-source releases through 11 August 2026 and added 30 selectively screened research works plus XPolicyLab, with explicit system-loop evidence and canonical model, component, method, benchmark, or infrastructure placement.</p>
-<p><strong>2026-08-11</strong> — Replaced all research-paper tables with badge-first literature entries modeled on the navigation style of Awesome World Models, while retaining auditable metadata and Agent-loop evidence beneath each title.</p>
-<p><strong>2026-08-11</strong> — Tightened the embodied-agent/world-model boundary, audited every research branch against primary sources, added representative systems, models, methods, and benchmarks across underrepresented modalities, and introduced a provenance-aware Multimodal Agent Skills index.</p>
-<p><strong>2026-08-11</strong> — Reorganized the index as a numbered research taxonomy, aligned system and benchmark branches by action domain, corrected model/system/method boundaries, and expanded underrepresented tactile, real-time interaction, safety, and human-agent research.</p>
 <p><strong>2026-08-10</strong> — Expanded coverage to multimodal search, agentic generation and editing, creative workflows, reflection, verification, and self-improvement. Replaced mixed topic labels with separate modality, capability, action-domain, temporal, and participant axes.</p>
-<p><strong>2026-08-10</strong> — Rebuilt the list around multimodal agency rather than visual/GUI agents. Made multimodal evidence and runtime feedback mandatory, separated artifact types, and removed duplicate placements.</p>
 
 </details>
 
