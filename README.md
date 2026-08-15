@@ -5,7 +5,7 @@
 <div align="center">
 
 # Awesome Multimodal Agents
-<img width="443" height="221" alt="0ae7821fe9fc5286ec0e8bb5732074d9" src="https://github.com/user-attachments/assets/9dcf8020-f98d-4826-8326-1d3160e0a7f2" />
+<img width="220" height="220" alt="Awesome Multimodal Agents logo" src="assets/logo.png" />
 <p>A curated map of agents that perceive across modalities, reason in a loop, and act on the digital or physical world.</p>
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
@@ -75,6 +75,7 @@ Each work is assigned one canonical placement based on its primary evaluated con
 <details>
 <summary><strong>Project updates</strong></summary>
 
+<p><strong>2026-08-15</strong> — Audited publication metadata and primary links, expanded current computer-use, agentic-generation, memory, presentation, and safety coverage, and added a complete contribution guide with recurring checks.</p>
 <p><strong>2026-08-10</strong> — Expanded coverage to multimodal search, agentic generation and editing, creative workflows, reflection, verification, and self-improvement. Replaced mixed topic labels with separate modality, capability, action-domain, temporal, and participant axes.</p>
 
 </details>
@@ -169,6 +170,10 @@ These works establish the field and its major interfaces. They are grouped by su
 
 ### 2.1 General Multimodal Agency
 
+- **Software Engineering for and with GUI Agent** [![arXiv 2608.09278](https://img.shields.io/badge/arXiv-2608.09278-b31b1b.svg)](https://arxiv.org/abs/2608.09278)  
+  *2026-08 · Preprint* — **Scope:** Evidence audit of 336 GUI-agent papers across architecture, interactive evaluation, recovery, lifecycle engineering, privacy, observability, human oversight, and deployment readiness
+- **A Survey on Agentic Multimodal Large Language Models** [![arXiv 2510.10991](https://img.shields.io/badge/arXiv-2510.10991-b31b1b.svg)](https://arxiv.org/abs/2510.10991) [![Collection](https://img.shields.io/badge/Collection-List-7c3aed.svg)](https://github.com/HJYao00/Awesome-Agentic-MLLMs)  
+  *2025-10 · Preprint* — **Scope:** Agentic internal intelligence, external tool invocation, environment interaction, training resources, evaluation, and applications for multimodal large language models
 - **Large Multimodal Agents: A Survey** [![arXiv 2402.15116](https://img.shields.io/badge/arXiv-2402.15116-b31b1b.svg)](https://arxiv.org/abs/2402.15116)  
   *2024-02 · Preprint* — **Scope:** Architectures, tool use, collaboration, applications, and evaluation for LLM-driven multimodal agents
 - **Agent AI: Surveying the Horizons of Multimodal Interaction** [![arXiv 2401.03568](https://img.shields.io/badge/arXiv-2401.03568-b31b1b.svg)](https://arxiv.org/abs/2401.03568)  
@@ -236,10 +241,10 @@ The agent acts by selecting evidence, invoking analysis or retrieval tools, upda
   *2026-03 · Preprint* — **Modalities:** Language; Image/screen; Structured data — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Create/edit — **Temporal:** Stepwise — **Participants:** Single agent  
   **Agent loop:** Search returns text and reference images that guide later retrieval and grounded image-synthesis decisions
 - **LensWalk** [![arXiv 2603.24558](https://img.shields.io/badge/arXiv-2603.24558-b31b1b.svg)](https://arxiv.org/abs/2603.24558)  
-  *2026-03 · Preprint* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Verify/reflect — **Temporal:** Long-horizon — **Participants:** Single agent  
+  *2026-03 · CVPR 2026* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Verify/reflect — **Temporal:** Long-horizon — **Participants:** Single agent  
   **Agent loop:** A reason-plan-observe loop changes temporal scope and sampling density after each returned visual observation
 - **VideoARM** [![arXiv 2512.12360](https://img.shields.io/badge/arXiv-2512.12360-b31b1b.svg)](https://arxiv.org/abs/2512.12360)  
-  *2025-12 · Preprint* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Use tools/control; Remember — **Temporal:** Long-horizon — **Participants:** Single agent  
+  *2025-12 · CVPR 2026* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Use tools/control; Remember — **Temporal:** Long-horizon — **Participants:** Single agent  
   **Agent loop:** Repeats observation, coarse-to-fine tool action, returned evidence, and hierarchical-memory update before deciding again
 - **Active Video Perception** [![arXiv 2512.05774](https://img.shields.io/badge/arXiv-2512.05774-b31b1b.svg)](https://arxiv.org/abs/2512.05774)  
   *2025-12 · Preprint* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Verify/reflect — **Temporal:** Long-horizon — **Participants:** Agent team  
@@ -254,13 +259,13 @@ The agent acts by selecting evidence, invoking analysis or retrieval tools, upda
   *2025-08 · Preprint* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Remember — **Temporal:** Streaming; Long-horizon — **Participants:** Single agent  
   **Agent loop:** Anticipates future evidence, observes later frames, then revises temporal and spatial attention actions
 - **VideoMind** [![arXiv 2503.13444](https://img.shields.io/badge/arXiv-2503.13444-b31b1b.svg)](https://arxiv.org/abs/2503.13444) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://videomind.github.io/)  
-  *2025-03 · Preprint* — **Modalities:** Video; Language; Structured data — **Capabilities:** Perceive/retrieve; Verify/reflect; Coordinate — **Temporal:** Long-horizon — **Participants:** Agent team  
+  *2025-03 · ICLR 2026* — **Modalities:** Video; Language; Structured data — **Capabilities:** Perceive/retrieve; Verify/reflect; Coordinate — **Temporal:** Long-horizon — **Participants:** Agent team  
   **Agent loop:** Planner requests evidence; grounding and verification results determine the next retrieval or answer action
 - **LVAgent** [![arXiv 2503.10200](https://img.shields.io/badge/arXiv-2503.10200-b31b1b.svg)](https://arxiv.org/abs/2503.10200)  
-  *2025-03 · Preprint* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Remember; Verify/reflect; Coordinate — **Temporal:** Long-horizon — **Participants:** Agent team  
+  *2025-03 · ICCV 2025* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Remember; Verify/reflect; Coordinate — **Temporal:** Long-horizon — **Participants:** Agent team  
   **Agent loop:** Agents retrieve, debate, and reflect; round-level evaluation changes team composition and later evidence use
 - **VideoAgent: A Memory-augmented Multimodal Agent for Video Understanding** [![arXiv 2403.11481](https://img.shields.io/badge/arXiv-2403.11481-b31b1b.svg)](https://arxiv.org/abs/2403.11481)  
-  *2024-03 · Preprint* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Use tools/control; Remember — **Temporal:** Long-horizon — **Participants:** Single agent  
+  *2024-03 · ECCV 2024* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Use tools/control; Remember — **Temporal:** Long-horizon — **Participants:** Single agent  
   **Agent loop:** Tool results update structured temporal and object memory used by later localization and answer decisions
 - **VideoAgent: Long-form Video Understanding with Large Language Model as Agent** [![arXiv 2403.10517](https://img.shields.io/badge/arXiv-2403.10517-b31b1b.svg)](https://arxiv.org/abs/2403.10517)  
   *2024-03 · ECCV 2024* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Use tools/control — **Temporal:** Long-horizon — **Participants:** Single agent  
@@ -305,9 +310,18 @@ The agent changes a media or design artifact and inspects rendered, executable, 
 - **IntentEdit: Multi-Agent Reasoning for Intent-Driven Complex Image Editing** [![Paper](https://img.shields.io/badge/Paper-Link-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2026F/html/Zhang_IntentEdit_Multi-Agent_Reasoning_for_Intent-Driven_Complex_Image_Editing_CVPRF_2026_paper.html) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/LaVi-Lab/IntentEdit)  
   *2026-06 · CVPR 2026 Findings* — **Modalities:** Language; Image/screen — **Capabilities:** Plan/reason; Use tools/control; Create/edit; Verify/reflect; Coordinate — **Temporal:** Multi-turn — **Participants:** Agent team  
   **Agent loop:** A cognitive planner grounds intent into staged edits; executors render them, and a reflective evaluator sends deficient outputs back for replanning and refinement
+- **NEWTON: Agentic Planning for Physically Grounded Video Generation** [![arXiv 2605.18396](https://img.shields.io/badge/arXiv-2605.18396-b31b1b.svg)](https://arxiv.org/abs/2605.18396) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://newton026.github.io/newton/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/CUTEPKQ/NEWTON)  
+  *2026-05 · Preprint* — **Modalities:** Language; Image/screen; Video; Structured physical data — **Capabilities:** Plan/reason; Use tools/control; Create/edit; Verify/reflect — **Temporal:** Multi-turn — **Participants:** Single agent  
+  **Agent loop:** A learned planner orchestrates physics-aware tools and video generation; verifier evidence sends physically inconsistent results back into iterative replanning
+- **GEMS: Agent-Native Multimodal Generation with Memory and Skills** [![arXiv 2603.28088](https://img.shields.io/badge/arXiv-2603.28088-b31b1b.svg)](https://arxiv.org/abs/2603.28088) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://gems-gen.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/lcqysl/GEMS)  
+  *2026-03 · Preprint* — **Modalities:** Language; Image/screen; Structured data — **Capabilities:** Plan/reason; Use tools/control; Create/edit; Verify/reflect; Remember; Coordinate — **Temporal:** Multi-turn; Continual — **Participants:** Agent team  
+  **Agent loop:** Specialized agents evaluate intermediate generations and iteratively optimize them, while persistent trajectory memory and on-demand skills change later decisions
 - **SAGE: Scalable Agentic 3D Scene Generation for Embodied AI** [![arXiv 2602.10116](https://img.shields.io/badge/arXiv-2602.10116-b31b1b.svg)](https://arxiv.org/abs/2602.10116) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://research.nvidia.com/labs/dir/sage/)  
   *2026-02 · Preprint* — **Modalities:** Language; Image/screen; 3D/depth; Structured data — **Capabilities:** Plan/reason; Use tools/control; Create/edit; Verify/reflect — **Temporal:** Multi-turn — **Participants:** Single agent  
   **Agent loop:** Scene generators propose layouts and object compositions; semantic, visual, and physical critics return failures that change later tool selection and iterative scene refinement
+- **Agent Banana: High-Fidelity Image Editing with Agentic Thinking and Tooling** [![arXiv 2602.09084](https://img.shields.io/badge/arXiv-2602.09084-b31b1b.svg)](https://arxiv.org/abs/2602.09084) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://agent-banana.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/taco-group/agent-banana)  
+  *2026-02 · Preprint* — **Modalities:** Language; Image/screen; Structured memory — **Capabilities:** Plan/reason; Use tools/control; Create/edit; Remember — **Temporal:** Multi-turn; Long-horizon — **Participants:** Human-agent  
+  **Agent loop:** Each user instruction and edited artifact update structured interaction memory; the planner decomposes later localized edits against the current layered image state
 - **JarvisEvo** [![arXiv 2511.23002](https://img.shields.io/badge/arXiv-2511.23002-b31b1b.svg)](https://arxiv.org/abs/2511.23002) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://jarvisevo.vercel.app/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/LYL1015/JarvisEvo)  
   *2025-11 · CVPR 2026* — **Modalities:** Language; Image/screen — **Capabilities:** Plan/reason; Use tools/control; Create/edit; Verify/reflect; Learn/adapt — **Temporal:** Multi-turn; Continual — **Participants:** Single agent  
   **Agent loop:** Each edited image is evaluated and reflected on before later tool choices; editor-evaluator optimization also converts this feedback into policy improvement
@@ -317,12 +331,18 @@ The agent changes a media or design artifact and inspects rendered, executable, 
 - **RAISECity** [![arXiv 2511.18005](https://img.shields.io/badge/arXiv-2511.18005-b31b1b.svg)](https://arxiv.org/abs/2511.18005)  
   *2025-11 · Preprint* — **Modalities:** Language; Image/screen; 3D/depth; Structured data — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Create/edit; Verify/reflect — **Temporal:** Long-horizon — **Participants:** Single agent  
   **Agent loop:** Generated 3D assets and scenes are evaluated through iterative self-reflection, and detected fidelity errors trigger later tool calls and refinements
+- **Auto-Slides: An Interactive Multi-Agent System for Creating and Customizing Research Presentations** [![arXiv 2509.11062](https://img.shields.io/badge/arXiv-2509.11062-b31b1b.svg)](https://arxiv.org/abs/2509.11062) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://auto-slides.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/Westlake-AGI-Lab/Auto-Slides)  
+  *2025-09 · Preprint* — **Modalities:** Language; Image/screen; Structured documents — **Capabilities:** Perceive/retrieve; Plan/reason; Create/edit; Verify/reflect; Coordinate — **Temporal:** Multi-turn — **Participants:** Agent team + human  
+  **Agent loop:** Verification and retrieval findings constrain slide generation, while rendered slides and interactive-editor feedback drive later content, layout, and personalization revisions
 - **MAGUS** [![arXiv 2508.10494](https://img.shields.io/badge/arXiv-2508.10494-b31b1b.svg)](https://arxiv.org/abs/2508.10494)  
   *2025-08 · Preprint* — **Modalities:** Language; Image/screen; Speech; Non-speech audio; Video — **Capabilities:** Plan/reason; Use tools/control; Create/edit; Verify/reflect; Coordinate — **Temporal:** Multi-turn — **Participants:** Agent team  
   **Agent loop:** Perceiver and planner produce an action; reflector feedback changes later generation and tool decisions
 - **AVAgent** [![arXiv 2410.23230](https://img.shields.io/badge/arXiv-2410.23230-b31b1b.svg)](https://arxiv.org/abs/2410.23230) [![Paper](https://img.shields.io/badge/Paper-NeurIPS-b31b1b.svg)](https://proceedings.neurips.cc/paper_files/paper/2024/hash/6c0ff499edc529c7d8c9f05c7c0ccb82-Abstract-Conference.html)  
   *2024-09 · NeurIPS 2024* — **Modalities:** Video; Speech; Non-speech audio; Language — **Capabilities:** Plan/reason; Use tools/control; Create/edit; Verify/reflect — **Temporal:** Multi-turn — **Participants:** Single agent  
   **Agent loop:** Audio edits are scored against visual content by a VLM; its alignment feedback determines the next filtering or augmentation action
+- **Self-correcting LLM-controlled Diffusion Models (SLD)** [![arXiv 2311.16090](https://img.shields.io/badge/arXiv-2311.16090-b31b1b.svg)](https://arxiv.org/abs/2311.16090) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://self-correcting-llm-diffusion.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/tsunghan-wu/SLD)  
+  *2023-11 · Preprint* — **Modalities:** Language; Image/screen — **Capabilities:** Plan/reason; Create/edit; Verify/reflect — **Temporal:** Multi-turn — **Participants:** Single agent  
+  **Agent loop:** The controller generates an image, assesses prompt alignment, identifies inaccuracies, and feeds targeted corrections into the next diffusion or editing round
 - **InternGPT** [![arXiv 2305.05662](https://img.shields.io/badge/arXiv-2305.05662-b31b1b.svg)](https://arxiv.org/abs/2305.05662) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/OpenGVLab/InternGPT)  
   *2023-05 · Preprint* — **Modalities:** Language; Image/screen; Video — **Capabilities:** Converse; Use tools/control; Create/edit — **Temporal:** Multi-turn — **Participants:** Human-agent  
   **Agent loop:** Language and cursor gestures select tools or regions; returned visual edits become the context for subsequent instructions
@@ -373,6 +393,15 @@ Only representative computer-use systems are kept here; this branch is deliberat
 - **FormBharo: Designing and Evaluating a Voice Agent for Conversational Form Filling in Rural India** [![arXiv 2608.06027](https://img.shields.io/badge/arXiv-2608.06027-b31b1b.svg)](https://arxiv.org/abs/2608.06027)  
   *2026-08 · Preprint* — **Modalities:** Speech; Language; Structured data — **Capabilities:** Converse; Plan/reason; Use tools/control; Verify/reflect — **Temporal:** Multi-turn; Real-time — **Participants:** Human-agent  
   **Agent loop:** Each caller utterance updates structured form state; deterministic validation detects missing or invalid fields and changes the next follow-up, retry, or form-writing action
+- **WebChallenger: A Reliable and Efficient Generalist Web Agent** [![arXiv 2606.10423](https://img.shields.io/badge/arXiv-2606.10423-b31b1b.svg)](https://arxiv.org/abs/2606.10423) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/jayoohwang1/webchallenger)  
+  *2026-06 · Preprint* — **Modalities:** Language; Image/screen; Structured page state — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Remember — **Temporal:** Long-horizon — **Participants:** Single agent  
+  **Agent loop:** Browser actions update the page and PageMem representation; changed sections, element behavior, and partial workflow state determine the next region, compound action, or recovery decision
+- **Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction (VeriGUI)** [![arXiv 2604.05477](https://img.shields.io/badge/arXiv-2604.05477-b31b1b.svg)](https://arxiv.org/abs/2604.05477)  
+  *2026-04 · ACL 2026* — **Modalities:** Language; Image/screen; Structured action expectations — **Capabilities:** Plan/reason; Use tools/control; Verify/reflect; Learn/adapt — **Temporal:** Long-horizon — **Participants:** Single agent  
+  **Agent loop:** After each GUI action, the observed screen is compared with the expected effect; detected failure changes corrective reasoning and the next action instead of allowing blind continuation
+- **LongHorizonUI: A Unified Framework for Robust Long-Horizon Task Automation of GUI Agent** [![Paper](https://img.shields.io/badge/Paper-OpenReview-b31b1b.svg)](https://openreview.net/forum?id=BK7Mk5d4WE) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://kane2kang.github.io/LongHorizonUI/)  
+  *2026-01 · ICLR 2026* — **Modalities:** Language; Image/screen; Structured UI state — **Capabilities:** Plan/reason; Use tools/control; Verify/reflect — **Temporal:** Long-horizon — **Participants:** Single agent  
+  **Agent loop:** Post-action screenshots are verified against the intended subgoal; failure triggers local replanning, rollback, or compensatory execution before the workflow proceeds
 - **AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice-Driven Tasks** [![arXiv 2506.23049](https://img.shields.io/badge/arXiv-2506.23049-b31b1b.svg)](https://arxiv.org/abs/2506.23049)  
   *2025-06 · Preprint* — **Modalities:** Speech; Language; Structured data — **Capabilities:** Converse; Plan/reason; Use tools/control — **Temporal:** Multi-turn — **Participants:** Human-agent  
   **Agent loop:** Spoken requests trigger tool actions such as search, email, or booking; returned service state and follow-up speech determine later calls and responses
@@ -386,7 +415,7 @@ Only representative computer-use systems are kept here; this branch is deliberat
   *2024-01 · Preprint* — **Modalities:** Language; Image/screen — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control — **Temporal:** Long-horizon — **Participants:** Single agent  
   **Agent loop:** Each tap or swipe changes the application screen; fresh visual perception is used to plan and ground the next operation
 - **AppAgent** [![arXiv 2312.13771](https://img.shields.io/badge/arXiv-2312.13771-b31b1b.svg)](https://arxiv.org/abs/2312.13771) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://appagent-official.github.io/)  
-  *2023-12 · Preprint* — **Modalities:** Language; Image/screen; Structured data — **Capabilities:** Plan/reason; Use tools/control; Remember; Learn/adapt — **Temporal:** Long-horizon — **Participants:** Human-agent  
+  *2023-12 · CHI 2025* — **Modalities:** Language; Image/screen; Structured data — **Capabilities:** Plan/reason; Use tools/control; Remember; Learn/adapt — **Temporal:** Long-horizon — **Participants:** Human-agent  
   **Agent loop:** Autonomous exploration generates app knowledge; during execution each tap or swipe yields a new screen used for the next action
 
 <p align="right"><a href="#top">Back to top</a></p>
@@ -404,8 +433,8 @@ The agent changes a simulated, reconstructed, or game world rather than a physic
 - **SIMA** [![arXiv 2404.10179](https://img.shields.io/badge/arXiv-2404.10179-b31b1b.svg)](https://arxiv.org/abs/2404.10179) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/)  
   *2024-03 · Technical report* — **Modalities:** Image/screen; Language — **Capabilities:** Plan/reason; Use tools/control — **Temporal:** Real-time; Long-horizon — **Participants:** Single agent  
   **Agent loop:** Keyboard and mouse control change the world; resulting visual observations condition later actions toward the goal
-- **JARVIS-1** [![arXiv 2311.05997](https://img.shields.io/badge/arXiv-2311.05997-b31b1b.svg)](https://arxiv.org/abs/2311.05997) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://craftjarvis.org/JARVIS-1/)  
-  *2023-11 · Preprint* — **Modalities:** Image/screen; Language — **Capabilities:** Plan/reason; Use tools/control; Remember; Learn/adapt — **Temporal:** Long-horizon; Continual — **Participants:** Single agent  
+- **JARVIS-1** [![arXiv 2311.05997](https://img.shields.io/badge/arXiv-2311.05997-b31b1b.svg)](https://arxiv.org/abs/2311.05997) [![Paper](https://img.shields.io/badge/Paper-TPAMI-b31b1b.svg)](https://doi.org/10.1109/TPAMI.2024.3511593) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://craftjarvis.github.io/JARVIS-1/)  
+  *2023-11 · IEEE TPAMI 2025* — **Modalities:** Image/screen; Language — **Capabilities:** Plan/reason; Use tools/control; Remember; Learn/adapt — **Temporal:** Long-horizon; Continual — **Participants:** Single agent  
   **Agent loop:** Plans dispatch to goal-conditioned controllers; new Minecraft observations and survival experiences update subsequent planning and memory
 - **LEO** [![arXiv 2311.12871](https://img.shields.io/badge/arXiv-2311.12871-b31b1b.svg)](https://arxiv.org/abs/2311.12871) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://embodied-generalist.github.io/)  
   *2023-11 · ICML 2024* — **Modalities:** 3D/depth; Language — **Capabilities:** Plan/reason; Use tools/control; Remember — **Temporal:** Long-horizon — **Participants:** Single agent  
@@ -463,7 +492,7 @@ The primary action changes the physical world or coordinates physical robots. La
   *2023-07 · Preprint* — **Modalities:** Language; Structured data — **Capabilities:** Plan/reason; Verify/reflect; Coordinate — **Temporal:** Long-horizon — **Participants:** Agent team + human  
   **Agent loop:** Robot agents debate a plan, receive collision-check or human feedback, and revise later paths
 - **TidyBot** [![arXiv 2305.05658](https://img.shields.io/badge/arXiv-2305.05658-b31b1b.svg)](https://arxiv.org/abs/2305.05658) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://tidybot.cs.princeton.edu/)  
-  *2023-05 · Preprint* — **Modalities:** Image/screen; Language; Structured data; Proprioception — **Capabilities:** Plan/reason; Use tools/control; Remember; Learn/adapt — **Temporal:** Long-horizon; Continual — **Participants:** Human-agent  
+  *2023-05 · IROS 2023* — **Modalities:** Image/screen; Language; Structured data; Proprioception — **Capabilities:** Plan/reason; Use tools/control; Remember; Learn/adapt — **Temporal:** Long-horizon; Continual — **Participants:** Human-agent  
   **Agent loop:** Prior user examples update a reusable preference summary; perception and changed scene state guide later pick-and-place decisions
 - **Code as Policies** [![arXiv 2209.07753](https://img.shields.io/badge/arXiv-2209.07753-b31b1b.svg)](https://arxiv.org/abs/2209.07753) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://code-as-policies.github.io/)  
   *2022-09 · ICRA 2023* — **Modalities:** Language; Image/screen; Structured data — **Capabilities:** Plan/reason; Use tools/control — **Temporal:** Long-horizon — **Participants:** Single agent  
@@ -499,8 +528,11 @@ These works enable multimodal agents but are not presented as end-to-end systems
   *2026-04 · Preprint* — **Artifact:** Model — **Role:** Edge-oriented full-duplex omni-modal model — **Modalities / channels:** Streaming audio; Video; Language; Speech  
   **Canonical placement:** Deployments may build agents around it, but the contribution is the model
 - **Unit-Based Agent for Semi-Cascaded Full-Duplex Dialogue Systems** [![arXiv 2601.20230](https://img.shields.io/badge/arXiv-2601.20230-b31b1b.svg)](https://arxiv.org/abs/2601.20230) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/yu-haoyuan/fd-badcat)  
-  *2026-01 · Preprint* — **Artifact:** Dialogue architecture / policy — **Role:** Unit-level listening, waiting, interruption, and speaking decisions — **Modalities / channels:** Speech; Language units derived from the same speech stream  
+  *2026-01 · ICASSP 2026 Grand Challenge* — **Artifact:** Dialogue architecture / policy — **Role:** Unit-level listening, waiting, interruption, and speaking decisions — **Modalities / channels:** Speech; Language units derived from the same speech stream  
   **Canonical placement:** The loop is agentic, but a transcript or unit sequence derived from speech is not an independent second information modality
+- **UI2Code^N: UI-to-Code Generation as Interactive Visual Optimization** [![arXiv 2511.08195](https://img.shields.io/badge/arXiv-2511.08195-b31b1b.svg)](https://arxiv.org/abs/2511.08195) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/zai-org/UI2Code_N)  
+  *2025-11 · Preprint* — **Artifact:** Model + reinforcement-learning method — **Role:** Closed-loop UI drafting, polishing, and editing through code execution and rendered feedback — **Modalities / channels:** Language; UI screenshots; Source code; Rendered interfaces  
+  **Canonical placement:** The primary artifact is an open-source 9B model and Relative Visual Policy Optimization recipe; execution-feedback iteration is the inference and training protocol rather than a general-purpose agent runtime
 - **Qwen3-Omni** [![arXiv 2509.17765](https://img.shields.io/badge/arXiv-2509.17765-b31b1b.svg)](https://arxiv.org/abs/2509.17765) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/QwenLM/Qwen3-Omni)  
   *2025-09 · Technical report* — **Artifact:** Model — **Role:** Unified understanding and generation across text, image, audio, video, and streaming speech — **Modalities / channels:** Language; Image; Video; Audio; Speech  
   **Canonical placement:** Wide modality coverage and low-latency speech generation are model capabilities; no external action-feedback loop is evaluated as the primary artifact
@@ -516,6 +548,9 @@ These works enable multimodal agents but are not presented as end-to-end systems
 
 ### 4.2 Vision-Language-Action and Generalist Policies
 
+- **Qwen-CUA: Native Computer Use for (almost) Everything** [![arXiv 2608.02352](https://img.shields.io/badge/arXiv-2608.02352-b31b1b.svg)](https://arxiv.org/abs/2608.02352)  
+  *2026-08 · Technical report* — **Artifact:** Model / policy + training infrastructure — **Role:** Native screenshot-only computer-use policy across browser, mobile, and desktop tasks — **Modalities / channels:** Screenshots; Language; Visual history; Keyboard and mouse actions  
+  **Canonical placement:** The principal result is a foundation computer-use model, scaling recipe, and verifiable training corpus rather than a separately specified application runtime
 - **WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN** [![arXiv 2608.07267](https://img.shields.io/badge/arXiv-2608.07267-b31b1b.svg)](https://arxiv.org/abs/2608.07267)  
   *2026-08 · Preprint* — **Artifact:** World-action model / policy — **Role:** Generates future views and navigation actions from 3D-conditioned observation histories — **Modalities / channels:** RGB histories; 3D scene tokens; Language; Navigation actions  
   **Canonical placement:** The principal contribution is a generative navigation model and learned policy used in a closed-loop controller, not a separately specified general agent runtime
@@ -526,7 +561,7 @@ These works enable multimodal agents but are not presented as end-to-end systems
   *2025-09 · ICLR 2026* — **Artifact:** Policy / model — **Role:** Generalist action model for interleaved 2D GUI and 3D embodied tasks — **Modalities / channels:** Images; Language; GUI actions; Robot actions  
   **Canonical placement:** The primary contribution is a unified action model and training design rather than a system-level runtime architecture
 - **OmniVTLA** [![arXiv 2508.08706](https://img.shields.io/badge/arXiv-2508.08706-b31b1b.svg)](https://arxiv.org/abs/2508.08706)  
-  *2025-08 · Preprint* — **Artifact:** Policy / model + dataset — **Role:** Semantically aligned vision-tactile-language-action manipulation — **Modalities / channels:** Images; Tactile/force; Language; Proprioception; Robot actions  
+  *2025-08 · IEEE RA-L 2026* — **Artifact:** Policy / model + dataset — **Role:** Semantically aligned vision-tactile-language-action manipulation — **Modalities / channels:** Images; Tactile/force; Language; Proprioception; Robot actions  
   **Canonical placement:** The principal contributions are a tactile encoder, the ObjTac dataset, and a reusable VTLA policy rather than a separately evaluated agent runtime
 - **SmolVLA** [![arXiv 2506.01844](https://img.shields.io/badge/arXiv-2506.01844-b31b1b.svg)](https://arxiv.org/abs/2506.01844) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/huggingface/lerobot)  
   *2025-06 · Preprint* — **Artifact:** Policy / model — **Role:** Compact, affordable VLA with asynchronous perception, action prediction, and execution — **Modalities / channels:** Images; Language; Proprioception; Robot actions  
@@ -552,7 +587,7 @@ These works enable multimodal agents but are not presented as end-to-end systems
 - **Octo** [![arXiv 2405.12213](https://img.shields.io/badge/arXiv-2405.12213-b31b1b.svg)](https://arxiv.org/abs/2405.12213) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/octo-models/octo)  
   *2024-05 · RSS 2024* — **Artifact:** Policy / model — **Role:** Open generalist robot-policy initialization — **Modalities / channels:** Images; Goal images or language; Proprioception  
   **Canonical placement:** The paper evaluates a reusable policy and fine-tuning behavior across robots, not an agent architecture
-- **3D-VLA** [![arXiv 2403.09631](https://img.shields.io/badge/arXiv-2403.09631-b31b1b.svg)](https://arxiv.org/abs/2403.09631) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://vis-www.cs.umass.edu/3dvla/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/UMass-Embodied-AGI/3D-VLA)  
+- **3D-VLA** [![arXiv 2403.09631](https://img.shields.io/badge/arXiv-2403.09631-b31b1b.svg)](https://arxiv.org/abs/2403.09631) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/UMass-Embodied-AGI/3D-VLA)  
   *2024-03 · ICML 2024* — **Artifact:** Model / world model — **Role:** 3D vision-language-action prediction with generative goal imagination — **Modalities / channels:** RGB; Point clouds; 3D geometry; Language; Robot actions  
   **Canonical placement:** The primary artifact is a generative VLA world model used by downstream embodied agents
 - **RT-H** [![arXiv 2403.01823](https://img.shields.io/badge/arXiv-2403.01823-b31b1b.svg)](https://arxiv.org/abs/2403.01823) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://rt-hierarchy.github.io/)  
@@ -580,11 +615,17 @@ These works enable multimodal agents but are not presented as end-to-end systems
   *2022-10 · ICML 2023* — **Artifact:** Policy / model + benchmark — **Role:** Multimodal-prompt-conditioned transformer robot policy — **Modalities / channels:** Interleaved language and images; Robot actions  
   **Canonical placement:** The paper's principal contributions are the transformer policy, procedural benchmark, and imitation-learning data rather than a separately designed runtime agent stack
 - **Gato** [![arXiv 2205.06175](https://img.shields.io/badge/arXiv-2205.06175-b31b1b.svg)](https://arxiv.org/abs/2205.06175)  
-  *2022-05 · Technical report* — **Artifact:** Policy / model — **Role:** Multi-task, multi-embodiment generalist policy — **Modalities / channels:** Images; Language; Proprioception; Game and robot actions  
+  *2022-05 · TMLR 2022* — **Artifact:** Policy / model — **Role:** Multi-task, multi-embodiment generalist policy — **Modalities / channels:** Images; Language; Proprioception; Game and robot actions  
   **Canonical placement:** One token policy spans many domains, but planning, feedback handling, and tool orchestration are not separately evaluated
 
 ### 4.3 Spatial, Memory, and Tool-Use Models and Components
 
+- **AVA-Encoder: Towards Agent-Native Video Representation Learning** [![arXiv 2608.12313](https://img.shields.io/badge/arXiv-2608.12313-b31b1b.svg)](https://arxiv.org/abs/2608.12313)  
+  *2026-08 · Preprint* — **Artifact:** Representation model / component — **Role:** Converts long video into editable knowledge graphs and optimizes them through reconstruction-derived textual gradients — **Modalities / channels:** Video; Audio; Images; Language; Structured graphs  
+  **Canonical placement:** The primary result is an agent-native video representation and training framework; it is designed for downstream agents but does not itself define a grounded user-task runtime
+- **StepReflect: Structured UI Transition Reflection for Mobile GUI Agents** [![arXiv 2608.05587](https://img.shields.io/badge/arXiv-2608.05587-b31b1b.svg)](https://arxiv.org/abs/2608.05587)  
+  *2026-08 · Preprint* — **Artifact:** Reflection model / component — **Role:** Predicts structured action effects and failure diagnoses from before-and-after mobile screenshots — **Modalities / channels:** Language; Paired screenshots; Structured transition specifications  
+  **Canonical placement:** The separately trained verifier improves multiple mobile agents online, but the main evaluated artifact is the reusable transition-reflection component
 - **ToolArtist** [![arXiv 2608.04436](https://img.shields.io/badge/arXiv-2608.04436-b31b1b.svg)](https://arxiv.org/abs/2608.04436)  
   *2026-08 · Preprint* — **Artifact:** Model / post-training paradigm — **Role:** Unified policy for reasoning, search-tool use, and native image generation — **Modalities / channels:** Language; Search results; Generated images  
   **Canonical placement:** The contribution is a unified model and agentic-RL recipe; no post-generation inspect-and-revise system loop is established
@@ -597,7 +638,7 @@ These works enable multimodal agents but are not presented as end-to-end systems
 - **SpatialVLM** [![arXiv 2401.12168](https://img.shields.io/badge/arXiv-2401.12168-b31b1b.svg)](https://arxiv.org/abs/2401.12168) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://spatial-vlm.github.io/)  
   *2024-01 · CVPR 2024* — **Artifact:** Model — **Role:** Metric and qualitative spatial reasoning — **Modalities / channels:** Images; Depth-derived geometry; Language  
   **Canonical placement:** Performs spatial inference without a demonstrated runtime agent loop
-- **MultiPLY** [![arXiv 2401.08577](https://img.shields.io/badge/arXiv-2401.08577-b31b1b.svg)](https://arxiv.org/abs/2401.08577) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://vis-www.cs.umass.edu/multiply/)  
+- **MultiPLY** [![arXiv 2401.08577](https://img.shields.io/badge/arXiv-2401.08577-b31b1b.svg)](https://arxiv.org/abs/2401.08577) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/UMass-Embodied-AGI/MultiPLY)  
   *2024-01 · CVPR 2024* — **Artifact:** Model + dataset — **Role:** Multisensory embodied language model and interactive state/action tokenization — **Modalities / channels:** Vision; Audio; Tactile; Thermal; 3D; Language  
   **Canonical placement:** Interactive inference closes a loop, but the primary evaluated contribution is the model and Multisensory Universe data
 - **LLaVA-Plus** [![arXiv 2311.05437](https://img.shields.io/badge/arXiv-2311.05437-b31b1b.svg)](https://arxiv.org/abs/2311.05437)  
@@ -615,15 +656,33 @@ These works contribute planning, coordination, workflow construction, tool compo
 
 ### 5.1 Tool Use, Workflow, and Program Synthesis
 
+- **Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents** [![arXiv 2608.03327](https://img.shields.io/badge/arXiv-2608.03327-b31b1b.svg)](https://arxiv.org/abs/2608.03327)  
+  *2026-08 · Preprint* — **Method:** Hybrid GUI-MCP tool adoption and context management — **Contribution:** Studies multi-turn reinforcement learning for choosing between visual interaction and structured tools, plus observation compression for long computer-use histories  
+  **Canonical placement:** The primary result is a training and context-management method evaluated through a shared harness rather than one deployed computer-use system
 - **VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System** [![arXiv 2607.27380](https://img.shields.io/badge/arXiv-2607.27380-b31b1b.svg)](https://arxiv.org/abs/2607.27380)  
   *2026-07 · Preprint* — **Method:** Executable program synthesis — **Contribution:** A coding agent writes a Blender program as code-as-chain-of-thought, a simulator produces a physical draft, and a video engine edits it into a photorealistic result  
   **Canonical placement:** The executable intermediate representation drives a staged generation pipeline, but no feedback-informed revision loop is evaluated as the primary contribution
 - **Knowledge-Centric Agents for Workflow Generation in ComfyUI** [![arXiv 2607.15845](https://img.shields.io/badge/arXiv-2607.15845-b31b1b.svg)](https://arxiv.org/abs/2607.15845)  
   *2026-07 · Preprint* — **Method:** Workflow synthesis — **Contribution:** Learns hierarchical workflow knowledge and synthesizes executable ComfyUI graphs with structural self-refinement  
   **Canonical placement:** Refinement targets workflow structure; independent visual execution feedback is not shown to alter a later runtime decision
+- **Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation** [![arXiv 2606.26907](https://img.shields.io/badge/arXiv-2606.26907-b31b1b.svg)](https://arxiv.org/abs/2606.26907)  
+  *2026-06 · Preprint* — **Method:** Agentic generation-context construction — **Contribution:** Plans, searches, reasons over references, and uses memory and feedback to assemble grounded context for image generation; IA-Bench evaluates the resulting capability  
+  **Canonical placement:** The main contribution is the context-construction method, trained agent, and benchmark; the paper does not isolate a generated-artifact inspection loop that causally revises the image
+- **GenClaw: Code-Driven Agentic Image Generation** [![arXiv 2605.30248](https://img.shields.io/badge/arXiv-2605.30248-b31b1b.svg)](https://arxiv.org/abs/2605.30248)  
+  *2026-05 · Preprint* — **Method:** Executable visual-sketch synthesis — **Contribution:** Searches and reasons, writes SVG, HTML, or Three.js sketches, and uses their rendered structure to condition a final image generator  
+  **Canonical placement:** The executable intermediate representation supports a staged pipeline, but runtime output-feedback repair is not established as the principal evaluated contribution
+- **WebVIA: Webpage Generation Benchmark and Multimodal Agentic Framework for Visually Rich Webpages** [![arXiv 2511.06251](https://img.shields.io/badge/arXiv-2511.06251-b31b1b.svg)](https://arxiv.org/abs/2511.06251)  
+  *2025-11 · Preprint* — **Method:** Multi-state webpage reconstruction workflow — **Contribution:** Explores interactive pages, captures state-linked screenshots, generates executable UI code, and validates interactivity against a benchmark  
+  **Canonical placement:** The paper contributes the benchmark and generation workflow; validation is evaluated without a clearly isolated feedback-conditioned code-revision system
 - **PresentAgent** [![arXiv 2507.04036](https://img.shields.io/badge/arXiv-2507.04036-b31b1b.svg)](https://arxiv.org/abs/2507.04036) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/AIGeeksGroup/PresentAgent)  
   *2025-07 · EMNLP 2025 Demo* — **Method:** Multimodal production workflow — **Contribution:** Converts long documents into rendered slides, narration, and synchronized presentation video through a modular production pipeline  
   **Canonical placement:** PresentEval scores completed outputs, but the paper does not establish evaluator feedback that changes a later runtime production decision
+- **DesignCoder: Hierarchy-Aware and Self-Correcting UI Code Generation with Large Language Models** [![arXiv 2506.13663](https://img.shields.io/badge/arXiv-2506.13663-b31b1b.svg)](https://arxiv.org/abs/2506.13663)  
+  *2025-06 · Preprint* — **Method:** Hierarchical UI program synthesis — **Contribution:** Decomposes screenshots into grouped interface regions, generates code divide-and-conquer, and applies structured self-correction  
+  **Canonical placement:** The primary evaluated contribution is the hierarchy-aware code-generation method rather than a general interactive software agent
+- **PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides** [![arXiv 2501.03936](https://img.shields.io/badge/arXiv-2501.03936-b31b1b.svg)](https://arxiv.org/abs/2501.03936)  
+  *2025-01 · Preprint* — **Method:** Reference-grounded presentation editing workflow — **Contribution:** Retrieves slide examples, plans content, and generates editing actions over an existing deck while PPTEval scores content and design  
+  **Canonical placement:** The main result is a two-stage edit-based generation method and evaluator; feedback-conditioned revision is not isolated as an end-to-end runtime claim
 - **Set-of-Mark Prompting** [![arXiv 2310.11441](https://img.shields.io/badge/arXiv-2310.11441-b31b1b.svg)](https://arxiv.org/abs/2310.11441) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/microsoft/SoM)  
   *2023-10 · Preprint* — **Method:** Visual grounding prompt — **Contribution:** Overlays addressable marks on segmented image regions so multimodal models can refer to precise targets  
   **Canonical placement:** It is a grounding method reused by agents, not an agent or feedback-informed system
@@ -663,20 +722,44 @@ These works contribute planning, coordination, workflow construction, tool compo
 - **OpenVisTool: An Open Recipe for Synthesizing Instructive Visual Tool-Use Trajectories** [![arXiv 2608.08557](https://img.shields.io/badge/arXiv-2608.08557-b31b1b.svg)](https://arxiv.org/abs/2608.08557)  
   *2026-08 · Preprint* — **Method:** Causally grounded trajectory synthesis — **Contribution:** Retains trajectories only when answers are correct and tool observations are causally useful, producing a 42K training corpus and companion evaluation set  
   **Canonical placement:** The work contributes data synthesis, filtering, and training infrastructure; agent trajectories are training artifacts rather than a canonical deployed system
+- **What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems** [![arXiv 2608.07565](https://img.shields.io/badge/arXiv-2608.07565-b31b1b.svg)](https://arxiv.org/abs/2608.07565)  
+  *2026-08 · Preprint* — **Method:** Feedback-aligned multimodal edit recommendation — **Contribution:** Combines supervised tuning, multi-objective reinforcement learning from user clicks, and a visual verifier to suggest useful next edits in live image-creation conversations  
+  **Canonical placement:** The primary result is the learned suggestion policy and training system rather than the surrounding artifact-editing runtime
 - **iARCS: Iterative Agentic RL for Controllable 3D Scene Generation** [![arXiv 2608.06161](https://img.shields.io/badge/arXiv-2608.06161-b31b1b.svg)](https://arxiv.org/abs/2608.06161)  
   *2026-08 · Preprint* — **Method:** Iterative agentic reinforcement learning — **Contribution:** Combines a universal reward model with LLM-generated task reward programs that are refined from training feedback for physically constrained 3D scenes  
   **Canonical placement:** Iteration improves the reward programs and generator during training; the central contribution is a learning method rather than an interactive runtime agent
+- **Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation** [![arXiv 2607.05382](https://img.shields.io/badge/arXiv-2607.05382-b31b1b.svg)](https://arxiv.org/abs/2607.05382)  
+  *2026-07 · Preprint* — **Method:** Teach-then-search co-training for visual generation — **Contribution:** Builds SearchGen-20K, SearchGen-Bench, and a searchable visual corpus, then couples supervised tool-use teaching with self-improving search trajectories  
+  **Canonical placement:** The primary contribution is the search-learning recipe, data, and benchmark rather than one user-facing generation system
+- **VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation** [![arXiv 2606.08091](https://img.shields.io/badge/arXiv-2606.08091-b31b1b.svg)](https://arxiv.org/abs/2606.08091) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/JianhuiWei7/VideoWeaver)  
+  *2026-06 · Preprint* — **Method:** Agent-harness evaluation and skill evolution — **Contribution:** Judges execution traces and final long videos, then uses evidence-grounded feedback to refine and merge reusable generation skills  
+  **Canonical placement:** The central contribution is a benchmark, harness comparison, and cross-task skill-evolution algorithm rather than one canonical deployed generation system
+- **MemoGen: Can Past Experience Improve Future Text-to-Image Generation?** [![arXiv 2606.03243](https://img.shields.io/badge/arXiv-2606.03243-b31b1b.svg)](https://arxiv.org/abs/2606.03243) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/Chatonz/MemoGen)  
+  *2026-06 · Preprint* — **Method:** Training-free test-time self-evolution — **Contribution:** Stores task understanding, references, visual feedback, successes, and failure lessons, then retrieves them to repair related future generations  
+  **Canonical placement:** The main novelty is a reusable experience-memory layer that improves a family of generators across tasks rather than a standalone user-facing runtime
+- **OctoT2I: A Self-Evolving Agentic Text-to-Image Router** [![arXiv 2606.01803](https://img.shields.io/badge/arXiv-2606.01803-b31b1b.svg)](https://arxiv.org/abs/2606.01803) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/JaxJiang2642081986/OctoT2I)  
+  *2026-06 · Preprint* — **Method:** Stateful multi-round routing and self-evolution — **Contribution:** Explores tool capability frontiers with an autonomous Propose–Solve–Evaluate–Learn loop, building memory for quality- and efficiency-aware model selection  
+  **Canonical placement:** The principal contribution is the self-evolving router and tool-capability learning mechanism rather than an artifact-editing application
+- **Task-Focused Memorization for Multimodal Agents** [![arXiv 2605.31075](https://img.shields.io/badge/arXiv-2605.31075-b31b1b.svg)](https://arxiv.org/abs/2605.31075)  
+  *2026-05 · Preprint* — **Method:** Reinforcement-learned multimodal memory selection — **Contribution:** Learns what to store from streaming video so later task decisions recover relevant visual evidence under a bounded memory budget  
+  **Canonical placement:** The principal contribution is the task-conditioned memorization objective and policy rather than a complete action-taking video agent
+- **GenEvolve: Self-Evolving Image Generation Agents via Tool-Orchestrated Visual Experience Distillation** [![arXiv 2605.21605](https://img.shields.io/badge/arXiv-2605.21605-b31b1b.svg)](https://arxiv.org/abs/2605.21605) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://ephemeral182.github.io/GenEvolve/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/MeiGen-AI/GenEvolve)  
+  *2026-05 · Preprint* — **Method:** Tool-orchestrated visual experience distillation — **Contribution:** Compares best and worst generation trajectories and turns their structured differences into dense supervision for search, reference selection, and prompt construction  
+  **Canonical placement:** The primary result is a self-distillation framework, dataset, and benchmark for improving image-generation agents rather than one fixed deployed system
 - **Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs (VISTA-Gym / VISTA-R1)** [![arXiv 2511.19773](https://img.shields.io/badge/arXiv-2511.19773-b31b1b.svg)](https://arxiv.org/abs/2511.19773) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/Lucanyc/VISTA-Gym)  
   *2025-11 · CVPR 2026* — **Method:** Agentic reinforcement learning — **Contribution:** Provides an executable visual-tool environment, verifiable feedback, trajectory infrastructure, and multi-turn RL for tool-integrated reasoning  
   **Canonical placement:** The primary evaluated contribution is the scalable training environment and learning recipe, rather than a deployed end-to-end task system
 - **Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents** [![arXiv 2509.14480](https://img.shields.io/badge/arXiv-2509.14480-b31b1b.svg)](https://arxiv.org/abs/2509.14480)  
   *2025-09 · Preprint* — **Method:** Turn-level adjudicated reinforcement learning — **Contribution:** Trains interleaved speech-text tool-use trajectories with judge feedback at each turn to improve long-horizon credit assignment  
   **Canonical placement:** The main artifact is an RL sandbox and learning framework rather than a deployed multimodal task system
+- **SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience** [![arXiv 2508.04700](https://img.shields.io/badge/arXiv-2508.04700-b31b1b.svg)](https://arxiv.org/abs/2508.04700) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/SunzeY/SEAgent)  
+  *2025-08 · ICML 2026* — **Method:** Autonomous experiential learning for computer use — **Contribution:** Couples a world-state model and curriculum generator with failure imitation and GRPO so agents learn unfamiliar software through trial and error  
+  **Canonical placement:** The main artifact is a self-evolving training framework and learned computer-use policy rather than one fixed end-user software workflow
 - **VisualToolAgent (VisTA)** [![arXiv 2505.20289](https://img.shields.io/badge/arXiv-2505.20289-b31b1b.svg)](https://arxiv.org/abs/2505.20289) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://oodbag.github.io/vista_web/)  
   *2025-05 · Preprint* — **Method:** Visual-tool selection reinforcement learning — **Contribution:** Uses task-outcome rewards and GRPO to learn query-specific selection and composition of visual tools  
   **Canonical placement:** Feedback optimizes the training policy; the primary contribution is the learning framework, not a separately evaluated external-environment system
 - **DeepEyes** [![arXiv 2505.14362](https://img.shields.io/badge/arXiv-2505.14362-b31b1b.svg)](https://arxiv.org/abs/2505.14362) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/Visual-Agent/DeepEyes)  
-  *2025-05 · Preprint* — **Method:** Agentic visual-tool reinforcement learning — **Contribution:** Incentivizes interleaved visual and textual reasoning through tool-use data selection and outcome-based rewards  
+  *2025-05 · ICLR 2026* — **Method:** Agentic visual-tool reinforcement learning — **Contribution:** Incentivizes interleaved visual and textual reasoning through tool-use data selection and outcome-based rewards  
   **Canonical placement:** The primary result is a reinforcement-learning recipe and model capability; no general external action-feedback runtime is contributed
 
 ### 5.3 World Models and Model-Based Planning
@@ -685,16 +768,16 @@ These works contribute planning, coordination, workflow construction, tool compo
   *2026-07 · Preprint* — **Method:** Action-conditioned world-model planning — **Contribution:** Proposes action plans and iteratively refines them through optimization and search over imagined rollouts  
   **Canonical placement:** The demonstrated refinement feedback comes from imagined rollouts; the paper's primary contribution is the planning method rather than a general runtime architecture
 - **RISE: Self-Improving Robot Policy with Compositional World Model** [![arXiv 2602.11075](https://img.shields.io/badge/arXiv-2602.11075-b31b1b.svg)](https://arxiv.org/abs/2602.11075)  
-  *2026-02 · Preprint* — **Method:** Robot reinforcement learning via imagination — **Contribution:** Predicts multiview futures, evaluates imagined outcomes, and converts rollout advantages into policy updates for contact-rich manipulation  
+  *2026-02 · RSS 2026* — **Method:** Robot reinforcement learning via imagination — **Contribution:** Predicts multiview futures, evaluates imagined outcomes, and converts rollout advantages into policy updates for contact-rich manipulation  
   **Canonical placement:** Its closed loop operates primarily in imagined training rollouts; the evaluated contribution is a world-model learning method rather than a general deployed agent architecture
 - **V-JEPA 2-AC** [![arXiv 2506.09985](https://img.shields.io/badge/arXiv-2506.09985-b31b1b.svg)](https://arxiv.org/abs/2506.09985) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/facebookresearch/vjepa2)  
   *2025-06 · Technical report* — **Method:** Action-conditioned world model — **Contribution:** Predicts latent visual futures and plans toward image goals  
   **Canonical placement:** Current and goal images come from one visual modality; actions do not create a second information modality
-- **COMBO: Compositional World Models for Embodied Multi-Agent Cooperation** [![arXiv 2404.10775](https://img.shields.io/badge/arXiv-2404.10775-b31b1b.svg)](https://arxiv.org/abs/2404.10775) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://vis-www.cs.umass.edu/combo/)  
+- **COMBO: Compositional World Models for Embodied Multi-Agent Cooperation** [![arXiv 2404.10775](https://img.shields.io/badge/arXiv-2404.10775-b31b1b.svg)](https://arxiv.org/abs/2404.10775) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://umass-embodied-agi.github.io/COMBO/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/UMass-Embodied-AGI/COMBO)  
   *2024-04 · ICLR 2025* — **Method:** Compositional world modeling — **Contribution:** Reconstructs shared state, predicts multi-agent action outcomes, and supports online cooperative tree search  
   **Canonical placement:** The primary evaluated novelty is the compositional generative world model and planning method rather than one canonical deployed system
-- **DreamerV3** [![arXiv 2301.04104](https://img.shields.io/badge/arXiv-2301.04104-b31b1b.svg)](https://arxiv.org/abs/2301.04104) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/danijar/dreamerv3)  
-  *2023-01 · Preprint* — **Method:** World-model reinforcement learning — **Contribution:** Learns dynamics and behavior through imagined rollouts across many control domains  
+- **DreamerV3** [![arXiv 2301.04104](https://img.shields.io/badge/arXiv-2301.04104-b31b1b.svg)](https://arxiv.org/abs/2301.04104) [![Paper](https://img.shields.io/badge/Paper-Nature-b31b1b.svg)](https://www.nature.com/articles/s41586-025-08744-2) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/danijar/dreamerv3)  
+  *2023-01 · Nature 2025* — **Method:** World-model reinforcement learning — **Contribution:** Learns dynamics and behavior through imagined rollouts across many control domains  
   **Canonical placement:** Pixels plus actions and rewards do not satisfy the two-information-modality gate
 
 ### 5.4 Multi-Agent and Conversational Coordination
@@ -759,6 +842,24 @@ Resources use the same six **primary action domains** as the end-to-end system i
 - **AVE-Compass** [![arXiv 2607.24821](https://img.shields.io/badge/arXiv-2607.24821-b31b1b.svg)](https://arxiv.org/abs/2607.24821)  
   *2026-07 · Preprint* — **Type:** Benchmark + baseline agent — **Modalities / environment:** Video; Speech; Non-speech audio; Language; Edited audiovisual output  
   **Evaluates:** Instruction following, fidelity, realism, editing intent, and cross-modal alignment in joint audio-video editing
+- **PPT-Eval: A Benchmark for Computer-Use Agents on PowerPoint Tasks** [![arXiv 2606.31154](https://img.shields.io/badge/arXiv-2606.31154-b31b1b.svg)](https://arxiv.org/abs/2606.31154) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://microsoft.github.io/ppteval/)  
+  *2026-06 · ICML 2026* — **Type:** Benchmark + rubric-based evaluator — **Modalities / environment:** PowerPoint files; Rendered slides; Language instructions; Application state  
+  **Evaluates:** Partial progress, instruction following, unnecessary changes, and visual quality across 120 presentation-creation and editing tasks
+- **Automatic Slide Updating with User-Defined Dynamic Templates and Natural Language Instructions (DynaSlide)** [![arXiv 2604.17894](https://img.shields.io/badge/arXiv-2604.17894-b31b1b.svg)](https://arxiv.org/abs/2604.17894)  
+  *2026-04 · ACL 2026 Findings* — **Type:** Benchmark + agentic baseline — **Modalities / environment:** Source and target slides; Language instructions; External databases; Slide structure and rendering  
+  **Evaluates:** 20,036 instruction-execution triples for updating user-authored reporting slides while preserving layout and style; SlideAgent provides a tool-augmented baseline
+- **Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification** [![arXiv 2603.26648](https://img.shields.io/badge/arXiv-2603.26648-b31b1b.svg)](https://arxiv.org/abs/2603.26648)  
+  *2026-03 · Preprint* — **Type:** Hierarchical benchmark + agent verifier — **Modalities / environment:** Website screenshots; Source code; Rendered pages; Interactive test cases  
+  **Evaluates:** 193 static UI, multi-page frontend, and long-horizon full-stack development tasks using GUI-agent verification and a vision-language judge
+- **PresentBench: A Fine-Grained Rubric-Based Benchmark for Slide Generation** [![arXiv 2603.07244](https://img.shields.io/badge/arXiv-2603.07244-b31b1b.svg)](https://arxiv.org/abs/2603.07244)  
+  *2026-03 · Preprint* — **Type:** Benchmark — **Modalities / environment:** Background documents and media; Generated slide decks; Instance-specific binary rubrics  
+  **Evaluates:** Real-world slide generation across 238 instances with an average of 54.1 fine-grained checklist items and human-aligned scoring
+- **FronTalk: Benchmarking Front-End Development as Conversational Code Generation with Multi-Modal Feedback** [![arXiv 2601.04203](https://img.shields.io/badge/arXiv-2601.04203-b31b1b.svg)](https://arxiv.org/abs/2601.04203)  
+  *2025-12 · CoLM 2026* — **Type:** Benchmark + agent-based evaluator and baseline — **Modalities / environment:** Text instructions; Sketches, mockups, and annotated screenshots; Website code and rendered interaction  
+  **Evaluates:** One hundred multi-turn frontend dialogues, visual-feedback interpretation, functional correctness, user experience, and forgetting; AceCoder critiques prior implementations with a web agent
+- **PPTArena: A Benchmark for PowerPoint Editing** [![arXiv 2512.03042](https://img.shields.io/badge/arXiv-2512.03042-b31b1b.svg)](https://arxiv.org/abs/2512.03042) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/michaelofengenden/PPTArena)  
+  *2025-12 · ECCV 2026* — **Type:** Benchmark + baseline agent — **Modalities / environment:** PowerPoint structure; Rendered slides; Language instructions; XML and programmatic tools  
+  **Evaluates:** More than 1,300 edits across 100 real decks using structural-diff and visual-quality judges; PPTPilot adds an iterative plan-edit-check baseline
 
 ### 6.3 Conversation and Social Interaction
 
@@ -784,7 +885,7 @@ Resources use the same six **primary action domains** as the end-to-end system i
   *2025-07 · Preprint* — **Type:** Benchmark — **Modalities / environment:** Speech; Paralinguistic cues; Images; Video; Environmental audio  
   **Evaluates:** Context-grounded voice responses that integrate fine-grained vocal characteristics, acoustic context, and complementary visual evidence
 - **OmniMMI** [![arXiv 2503.22952](https://img.shields.io/badge/arXiv-2503.22952-b31b1b.svg)](https://arxiv.org/abs/2503.22952)  
-  *2025-03 · Preprint* — **Type:** Streaming benchmark + baseline — **Modalities / environment:** Streaming video; Speech; Non-speech audio; Language  
+  *2025-03 · CVPR 2025* — **Type:** Streaming benchmark + baseline — **Modalities / environment:** Streaming video; Speech; Non-speech audio; Language  
   **Evaluates:** Online understanding and proactive reasoning across six real-time interaction subtasks
 - **VoiceBench** [![arXiv 2410.17196](https://img.shields.io/badge/arXiv-2410.17196-b31b1b.svg)](https://arxiv.org/abs/2410.17196) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/MatthewCYM/VoiceBench)  
   *2024-10 · Preprint* — **Type:** Benchmark — **Modalities / environment:** Speech instructions; Spoken responses  
@@ -795,11 +896,32 @@ Resources use the same six **primary action domains** as the end-to-end system i
 
 ### 6.4 Digital and Software Environments
 
+- **StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection** [![arXiv 2608.06477](https://img.shields.io/badge/arXiv-2608.06477-b31b1b.svg)](https://arxiv.org/abs/2608.06477)  
+  *2026-08 · Preprint* — **Type:** Safety benchmark + attack-generation pipeline — **Modalities / environment:** Language; Web pages; Visual or structured browser observations; Navigation chains  
+  **Evaluates:** Six computer-use agents on 480 indirect-prompt-injection cases whose malicious goal is distributed across multiple innocuous-looking pages and steps
+- **CUADebug: Diagnosing and Repairing Computer-Use Agent Failures** [![arXiv 2608.02643](https://img.shields.io/badge/arXiv-2608.02643-b31b1b.svg)](https://arxiv.org/abs/2608.02643)  
+  *2026-07 · Preprint* — **Type:** Benchmark + debugging framework — **Modalities / environment:** Before-and-after screenshots; Language; GUI action traces; Corrective strategies  
+  **Evaluates:** Root-cause step and error-type diagnosis, grounded explanations, and repair strategies that can be re-executed by a computer-use agent
+- **OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding** [![arXiv 2607.27155](https://img.shields.io/badge/arXiv-2607.27155-b31b1b.svg)](https://arxiv.org/abs/2607.27155)  
+  *2026-07 · Preprint* — **Type:** Benchmark + executable office environment — **Modalities / environment:** Language; Office documents; Rendered application state; GUI or programmatic actions; Cost signals  
+  **Evaluates:** One hundred practitioner-derived office workflows paired with human labor time and price proxies for task success, inference cost, and value-weighted comparison
 - **MMShopBench: A Real-Log Benchmark for Multimodal, Multi-Turn Shopping Agents** [![arXiv 2607.29002](https://img.shields.io/badge/arXiv-2607.29002-b31b1b.svg)](https://arxiv.org/abs/2607.29002)  
   *2026-07 · Preprint* — **Type:** Benchmark + offline shopping sandbox — **Modalities / environment:** Images; Language; Product attributes; Text and image search results  
   **Evaluates:** Real-log multi-turn requirement inference, multimodal retrieval, and evidence-grounded verification of candidate products
+- **Workflow-GYM: Towards Long-Horizon Evaluation of Computer-Use Agentic Tasks in Real-World Professional Fields** [![arXiv 2606.11042](https://img.shields.io/badge/arXiv-2606.11042-b31b1b.svg)](https://arxiv.org/abs/2606.11042)  
+  *2026-06 · Preprint* — **Type:** Benchmark + professional software environments — **Modalities / environment:** Language; GUI screenshots; Domain-specific application state; Long action traces  
+  **Evaluates:** End-to-end professional workflows, stage omission, error propagation, objective drift, and domain-software understanding across specialized fields
+- **WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments** [![arXiv 2604.27776](https://img.shields.io/badge/arXiv-2604.27776-b31b1b.svg)](https://arxiv.org/abs/2604.27776)  
+  *2026-04 · Preprint* — **Type:** Benchmark + simulated Windows environment — **Modalities / environment:** Language; Screenshots; Desktop application state; Cross-application actions  
+  **Evaluates:** 181 occupation-grounded tasks with intermediate process inspection and an average of five subgoals across 17 applications
+- **ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows** [![arXiv 2505.19897](https://img.shields.io/badge/arXiv-2505.19897-b31b1b.svg)](https://arxiv.org/abs/2505.19897) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://qiushisun.github.io/ScienceBoard-Home/)  
+  *2025-05 · ICLR 2026* — **Type:** Benchmark + executable scientific environment — **Modalities / environment:** Screenshots; Accessibility state; GUI and CLI actions; Professional scientific software  
+  **Evaluates:** 169 validated end-to-end tasks across six scientific domains, including cross-application workflows and dynamic visual state
+- **WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point** [![arXiv 2502.08047](https://img.shields.io/badge/arXiv-2502.08047-b31b1b.svg)](https://arxiv.org/abs/2502.08047)  
+  *2025-02 · Technical report* — **Type:** Benchmark + critique-based baseline — **Modalities / environment:** Language; Screenshots; Desktop and web application state; GUI actions  
+  **Evaluates:** Planning recovery and robustness across ten applications whose tasks begin from diverse non-default states
 - **CRAB** [![arXiv 2407.01511](https://img.shields.io/badge/arXiv-2407.01511-b31b1b.svg)](https://arxiv.org/abs/2407.01511) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/camel-ai/crab)  
-  *2024-07 · Preprint* — **Type:** Benchmark + cross-environment framework — **Modalities / environment:** Language; Screens; Desktop and mobile state; Cross-device actions  
+  *2024-07 · ACL 2025 Findings* — **Type:** Benchmark + cross-environment framework — **Modalities / environment:** Language; Screens; Desktop and mobile state; Cross-device actions  
   **Evaluates:** Graph-based progress and task completion for single- and multi-agent workflows spanning desktop and mobile environments
 - **AndroidWorld** [![arXiv 2405.14573](https://img.shields.io/badge/arXiv-2405.14573-b31b1b.svg)](https://arxiv.org/abs/2405.14573) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/google-research/android_world)  
   *2024-05 · ICLR 2025* — **Type:** Benchmark + executable environment — **Modalities / environment:** Language; Screenshots or accessibility state; Real Android applications  
@@ -831,6 +953,9 @@ Resources use the same six **primary action domains** as the end-to-end system i
 
 ### 6.6 Physical Robotics and Multi-Robot Systems
 
+- **Long-Horizon Embodied Decision-Making via Multimodal Memory Compression (DunphyBench / MeMento)** [![arXiv 2608.01456](https://img.shields.io/badge/arXiv-2608.01456-b31b1b.svg)](https://arxiv.org/abs/2608.01456)  
+  *2026-08 · Preprint* — **Type:** Benchmark + memory-compression baseline — **Modalities / environment:** Egocentric visual observations; Language; Housing evidence and preferences; Navigation actions  
+  **Evaluates:** Long-horizon evidence integration across multiple embodied housing environments under bounded context, with MeMento compressing multimodal memory for later decisions
 - **WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation** [![arXiv 2608.09298](https://img.shields.io/badge/arXiv-2608.09298-b31b1b.svg)](https://arxiv.org/abs/2608.09298) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://evophys.com/WorldSimProbe/)  
   *2026-08 · Preprint* — **Type:** Benchmark + diagnostic suites — **Modalities / environment:** Action-conditioned video; Robot actions; Motion; Manipulation environments  
   **Evaluates:** Simulator fidelity, action-to-motion correspondence, interaction grounding, control sensitivity, and primitive-level dynamics
@@ -970,7 +1095,13 @@ These adjacent collections cover broader modeling or narrower application areas 
 
 | Repository | Scope | Link |
 | --- | --- | --- |
+| Awesome Agentic Visual Generation Model | Broad L1–L4 taxonomy for agentic image, video, 3D, and multimodal generation; useful for candidate discovery beyond this list's stricter system gate | [GitHub](https://github.com/YinmingHuang/Awesome-agentic-visual-generation-model) |
 | Awesome Agentic Gen | Broad paper ledger for agentic image, video, 3D, design, and generative workflows; adjacent to this list's stricter multimodal-agent system index | [GitHub](https://github.com/Yu-xm/Awesome-Agentic-Gen) |
+| Awesome Agentic MLLMs | Companion collection to the Agentic MLLM survey, spanning internal intelligence, tool use, environment interaction, training, and evaluation | [GitHub](https://github.com/HJYao00/Awesome-Agentic-MLLMs) |
+| GUI Agents Paper List | High-coverage, continuously updated computer-use paper ledger with venue, environment, and task metadata | [GitHub](https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List) |
+| Awesome GUI Agents | GUI-agent papers and resources organized around perception, planning, action, training, and evaluation | [GitHub](https://github.com/ZJU-REAL/Awesome-GUI-Agents) |
+| Awesome UI Agents | Focused index of GUI-agent papers, frameworks, and benchmarks across desktop, web, and mobile environments | [GitHub](https://github.com/opendilab/awesome-ui-agents) |
+| Awesome GUI Agent | Broad GUI-agent paper and resource collection useful for tracking computer-use systems and evaluation | [GitHub](https://github.com/showlab/Awesome-GUI-Agent) |
 | Awesome Multimodal Modeling | Broader multimodal-modeling taxonomy and background | [GitHub](https://github.com/OpenEnvision/Awesome-Multimodal-Modeling) |
 | Awesome World Models | Domain-organized world-model paper index and the inspiration for this list's resource-badge display | [GitHub](https://github.com/knightnemo/Awesome-World-Models) |
 | Awesome Large Multimodal Agents | Companion resource associated with the LMA survey | [GitHub](https://github.com/jun0wanan/awesome-large-multimodal-agents) |
@@ -978,21 +1109,15 @@ These adjacent collections cover broader modeling or narrower application areas 
 
 ## Contributing and Curation
 
-Contributions are welcome through issues and pull requests. Before proposing a work, read the [contribution guide](contributing.md) and provide enough primary-source evidence to reproduce its placement.
+Contributions are welcome through issues and pull requests. Read [contributing.md](contributing.md) for the eligibility tests, evidence policy, canonical-placement guide, entry templates, local checks, and pull-request checklist.
 
 <!--lint disable awesome-list-item-->
 
-- **Primary sources first.** Prefer papers, official project pages, maintained code, datasets, and documentation.
-- **Agent claims require loop evidence.** A project name containing “agent” is not sufficient.
-- **Multimodality requires information, not control.** Actions, rewards, coordinates, and latent state never supply the second modality.
-- **One work, one canonical entry.** Placement follows the primary evaluated contribution; cross-cutting traits belong in labeled metadata, not duplicate entries.
-- **Models are not systems by default.** Foundation models and VLA backbones stay in Models, Policies, and Components unless a separate feedback-informed system is evaluated.
-- **Skills are implementation packages, not research systems.** Require a concrete `SKILL.md`, record provenance and operational requirements, and review executable contents before recommending installation.
-- **Axes remain independent.** For systems, encode the primary action domain through exactly one canonical subsection, then record modality, capability, temporal regime, and participants in their own fields; never compress them into one mixed category.
-- **Keep the list selective.** Favor representative systems with a clear conceptual, empirical, or engineering contribution.
-- **Use the first public month.** Order research artifacts by `YYYY-MM` and update an existing entry rather than adding a second row for a later venue version.
-- **Audit links and placement together.** A valid URL does not imply that a work belongs in the selected category.
-- **Run the repository checks.** Use [`node scripts/validate_readme.mjs`](scripts/validate_readme.mjs) before submission, then run the network-dependent link checks documented in the contribution guide.
+- **Primary evidence:** use papers, official proceedings or project pages, maintained repositories, datasets, and documentation.
+- **System evidence:** name the causal path from grounded action to returned observation to changed later decision; the word “agent” is not evidence.
+- **Canonical placement:** add one entry under the primary evaluated artifact and record cross-cutting properties only as metadata.
+- **Release history:** retain the first public month, update the existing status when a venue is verified, and never duplicate a later publication version.
+- **Disclosure and selectivity:** disclose contributor affiliation and favor representative, inspectable contributions over exhaustive keyword matching.
 
 <!--lint enable awesome-list-item-->
 
