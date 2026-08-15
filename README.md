@@ -9,6 +9,7 @@
 <p>A curated map of agents that perceive across modalities, reason in a loop, and act on the digital or physical world.</p>
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![GitHub Stars](https://img.shields.io/github/stars/OpenEnvision/Awesome-Multimodal-Agent?style=flat-square)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-16a34a?style=flat-square)
 ![Scope](https://img.shields.io/badge/scope-multimodal%20%7C%20agentic%20%7C%20interactive-0f766e)
 ![Updated](https://img.shields.io/badge/updated-2026--08-111827)
