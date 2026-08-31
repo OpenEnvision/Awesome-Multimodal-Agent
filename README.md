@@ -236,6 +236,9 @@ The agent acts by selecting evidence, invoking analysis or retrieval tools, upda
 - **Orchestra-o1** [![arXiv 2606.13707](https://img.shields.io/badge/arXiv-2606.13707-b31b1b.svg)](https://arxiv.org/abs/2606.13707)  
   *2026-06 · Preprint* — **Modalities:** Language; Image/screen; Speech; Non-speech audio; Video — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Coordinate — **Temporal:** Long-horizon — **Participants:** Agent team  
   **Agent loop:** The orchestrator decomposes each multimodal task, observes specialist outputs, and updates subsequent routing and synthesis decisions
+- **DepthAgent: Towards Better Universal Depth Estimation via Sample-wise Expert Selection** [![arXiv 2605.23281](https://img.shields.io/badge/arXiv-2605.23281-b31b1b.svg)](https://arxiv.org/abs/2605.23281)  
+  *2026-05 · Preprint* — **Modalities:** Image/screen; Language; Structured data — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Verify/reflect — **Temporal:** Multi-turn — **Participants:** Single agent  
+  **Agent loop:** Each invoked depth expert returns a depth map and auxiliary depth features that change whether the agent calls another expert, compares complementary predictions, or terminates with a selected or fused result
 - **Gen-Searcher** [![arXiv 2603.28767](https://img.shields.io/badge/arXiv-2603.28767-b31b1b.svg)](https://arxiv.org/abs/2603.28767) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/tulerfeng/Gen-Searcher)  
   *2026-03 · Preprint* — **Modalities:** Language; Image/screen; Structured data — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Create/edit — **Temporal:** Stepwise — **Participants:** Single agent  
   **Agent loop:** Search returns text and reference images that guide later retrieval and grounded image-synthesis decisions
