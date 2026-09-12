@@ -1010,6 +1010,7 @@ Resources use the same six **primary action domains** as the end-to-end system i
   *2019-12 · CVPR 2020* — **Type:** Benchmark + environment — **Modalities / environment:** Egocentric vision; Language; Embodied actions  
   **Evaluates:** Long-horizon household instruction following
 - **JRDB** [![arXiv 1910.11792](https://img.shields.io/badge/arXiv-1910.11792-b31b1b.svg)](https://arxiv.org/abs/1910.11792) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://jrdb.erc.monash.edu/)  
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril): Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
   *2019-10 · IEEE TPAMI 2021* — **Type:** Dataset + benchmark — **Modalities / environment:** RGB; RGB-D; 360° video; Audio; LiDAR; IMU  
   **Evaluates:** Multisensor perception for social mobile robots
 
