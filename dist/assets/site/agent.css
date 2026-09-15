@@ -1,0 +1,54 @@
+/* Agent-specific explanations, using the shared OpenEnvision Library tokens. */
+.agent-loop{width:100%;max-width:460px;justify-self:end}
+.loop-goal{display:flex;align-items:center;gap:15px;padding-bottom:15px;margin-bottom:22px;border-bottom:1px solid var(--line)}
+.loop-goal>span{font:11px var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--red)}
+.loop-goal>strong{font-size:13px;font-weight:500}
+.loop-stages{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:44px 38px}
+.loop-stage{position:relative;min-height:112px;border:1px solid #a5a7ab;padding:15px 16px 14px}
+.loop-number{float:right;font:10px var(--mono);color:var(--muted);margin:3px 0 0 5px}
+.loop-stage h3{font-size:18px;font-weight:600;letter-spacing:-.025em;line-height:1.2}
+.loop-stage p{font-size:12px;line-height:1.6;color:var(--muted);margin-top:10px}
+.loop-stage.act{grid-area:2 / 2;background:var(--tint);border-color:var(--red)}
+.loop-stage.feedback{grid-area:2 / 1}
+.loop-stage.act h3,.loop-stage.act .loop-number{color:var(--red)}
+.loop-arrow{position:absolute;background:var(--ink);display:block}
+.loop-arrow:after{content:'';position:absolute;width:6px;height:6px;border-top:1px solid currentColor;border-right:1px solid currentColor}
+.observe .loop-arrow{height:1px;width:26px;left:calc(100% + 6px);top:50%}
+.observe .loop-arrow:after{right:0;top:-3px;transform:rotate(45deg)}
+.decide .loop-arrow{height:32px;width:1px;left:50%;top:calc(100% + 6px)}
+.decide .loop-arrow:after{left:-3px;bottom:0;transform:rotate(135deg)}
+.act .loop-arrow{height:1px;width:26px;right:calc(100% + 6px);top:50%;background:var(--red);color:var(--red)}
+.act .loop-arrow:after{left:0;top:-3px;transform:rotate(-135deg)}
+.feedback .loop-arrow{height:32px;width:1px;left:50%;bottom:calc(100% + 6px);background:var(--red);color:var(--red)}
+.feedback .loop-arrow:after{left:-3px;top:0;transform:rotate(-45deg)}
+.agent-loop figcaption{font:11px/1.6 var(--mono);color:var(--red);margin-top:20px;text-align:center}
+.research-map{display:grid;grid-template-columns:1fr 1.18fr;gap:56px}
+.map-heading{border-bottom:1px solid var(--ink);padding-bottom:18px;margin-bottom:0}
+.map-heading>span{font:10px var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--red)}
+.map-heading h3{font-size:25px;margin:9px 0}
+.map-heading p{font-size:13px;color:var(--muted);line-height:1.6}
+.contribution-row{display:grid;grid-template-columns:22px minmax(0,1fr) 44px;gap:16px;align-items:start;padding:25px 0;border-bottom:1px solid var(--line)}
+.map-index{font:11px var(--mono);color:var(--muted);padding-top:3px}
+.contribution-row h4,.domain-row h4{font-size:17px;font-weight:600;letter-spacing:-.02em;line-height:1.35}
+.contribution-row p,.domain-row p{font-size:12px;line-height:1.65;color:var(--muted);margin-top:7px}
+.map-count{font:12px/1.6 var(--mono);text-align:right;color:var(--red);padding-top:2px}
+.contribution-row:hover,.domain-links a:hover{background:#fdf8f7}
+.domain-list{list-style:none;margin:0;padding:0}
+.domain-row{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:17px 0;border-bottom:1px solid var(--line)}
+.domain-row h4{font-size:15px}
+.domain-row p{margin-top:4px}
+.domain-links{display:flex;flex-direction:column;align-items:flex-end;gap:8px;flex:none}
+.domain-links a{font-size:11px;line-height:1.5;text-decoration:underline;text-decoration-color:#c6c8cb;text-underline-offset:4px}
+.domain-links a span{font-family:var(--mono);color:var(--red)}
+.map-resources{display:flex;align-items:center;gap:26px;flex-wrap:wrap;margin-top:30px;padding:22px 0;border-block:1px solid var(--line);font-size:12px}
+.map-resources strong{font-weight:500;color:var(--muted);margin-right:auto}
+.map-resources a{white-space:nowrap}
+.map-resources a span{font:11px var(--mono);color:var(--red);margin-left:6px}
+.evidence-label{font-weight:600;color:var(--red)}
+.agent-evidence{margin-bottom:25px;padding:18px 20px;border-left:3px solid var(--red);background:var(--tint)}
+.agent-evidence h3{font:11px var(--mono);text-transform:uppercase;letter-spacing:.04em;color:var(--red);margin-bottom:10px}
+.agent-evidence p{font-size:14px;line-height:1.75}
+@media(max-width:1180px){.hero{grid-template-columns:minmax(0,1.35fr) minmax(320px,1fr);gap:35px}.research-map{gap:36px}.loop-stage{padding:14px 12px}.loop-stage h3{font-size:16px}.loop-stage p{font-size:11px}.loop-number{font-size:9px}}
+@media(min-width:681px) and (max-width:1000px){.hero{grid-template-columns:1fr;gap:38px;padding-block:42px}.hero-copy{max-width:700px}.hero h1{font-size:clamp(43px,6.3vw,60px)}.hero-copy>p{font-size:18px}.project-resources{grid-template-columns:1fr 1fr;max-width:560px}.agent-loop{max-width:580px;justify-self:center}.loop-stage{min-height:112px;padding:16px 20px}.loop-stage h3{font-size:18px}.loop-stage p{font-size:12px}.research-map{gap:32px;grid-template-columns:1fr 1fr}.contribution-row{gap:10px;grid-template-columns:20px minmax(0,1fr) 35px}.domain-row{align-items:flex-start;flex-direction:column;gap:10px}.domain-links{flex-direction:row;gap:22px}.map-resources{gap:20px}.map-resources strong{width:100%}}
+@media(max-width:680px){.agent-loop{max-width:440px;align-self:center;margin-block:5px 8px}.loop-stages{gap:38px 32px}.loop-stage{padding:14px 12px;min-height:112px}.loop-stage h3{font-size:16px}.loop-stage p{font-size:12px}.loop-number{font-size:9px}.loop-goal>strong{font-size:12px}.agent-loop figcaption{font-size:10px}.observe .loop-arrow,.act .loop-arrow{width:20px}.decide .loop-arrow,.feedback .loop-arrow{height:26px}.research-map{grid-template-columns:1fr;gap:35px}.map-heading h3{font-size:24px}.contribution-row{padding-block:21px}.domain-row{gap:13px;padding-block:20px}.domain-row h4{font-size:15px}.domain-row p{max-width:220px}.domain-links{gap:9px}.map-resources{gap:16px 24px;padding-block:20px;margin-top:26px}.map-resources strong{width:100%}.agent-evidence{padding:15px 16px}.agent-evidence p{font-size:13px}}
+@media(max-width:380px){.loop-number{display:none}.loop-stage{padding-inline:10px}.loop-stage h3{font-size:15px}.loop-stage p{font-size:11px}.domain-row{align-items:flex-start;flex-direction:column;gap:10px}.domain-links{flex-direction:row;gap:22px}}

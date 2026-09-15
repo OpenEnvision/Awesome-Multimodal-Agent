@@ -1,0 +1,12 @@
+{
+  "name": "awesome-multimodal-agents",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-catalog.mjs && node website/scripts/build.mjs",
+    "dev": "npm run build && node website/scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check:site": "node scripts/check-site.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
