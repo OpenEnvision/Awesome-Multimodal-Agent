@@ -820,6 +820,9 @@ These works contribute planning, coordination, workflow construction, tool compo
 
 ### 5.1 Tool Use, Workflow, and Program Synthesis
 
+- **Reasoning with Image Generation** [![arXiv 2609.16409](https://img.shields.io/badge/arXiv-2609.16409-b31b1b.svg)](https://arxiv.org/abs/2609.16409) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://hector.gr/reimagin/)  
+  *2026-09 · Preprint* — **Method:** Training-free image-generation tool use for multimodal reasoning — **Contribution:** An MLLM agent emits actions that call an instruction-following image generation model for open-ended visual operations (e.g., removing an occlusion, synthesizing a floorplan from disjoint views); the generated image is returned to the agent's context and informs subsequent reasoning steps. Agent prompts are refined by automated strategy discovery while the MLLM and generator stay fixed; evaluated on six visual reasoning tasks against text-only and specialist vision-tool baselines  
+  **Canonical placement:** The evaluated contribution is a training-free tool-use reasoning method measured on visual reasoning benchmarks, rather than a deployed end-to-end agent system
 - **Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents** [![arXiv 2608.03327](https://img.shields.io/badge/arXiv-2608.03327-b31b1b.svg)](https://arxiv.org/abs/2608.03327)  
   *2026-08 · Preprint* — **Method:** Hybrid GUI-MCP tool adoption and context management — **Contribution:** Studies multi-turn reinforcement learning for choosing between visual interaction and structured tools, plus observation compression for long computer-use histories  
   **Canonical placement:** The primary result is a training and context-management method evaluated through a shared harness rather than one deployed computer-use system
