@@ -1569,6 +1569,7 @@ These adjacent collections cover broader modeling or narrower application areas 
 | Awesome World Models | Domain-organized world-model paper index and the inspiration for this list's resource-badge display | [GitHub](https://github.com/knightnemo/Awesome-World-Models) |
 | Awesome Large Multimodal Agents | Companion resource associated with the LMA survey | [GitHub](https://github.com/jun0wanan/awesome-large-multimodal-agents) |
 | Awesome LLMs for Video Understanding | Broader video-language models, datasets, and evaluation | [GitHub](https://github.com/yunlong10/Awesome-LLMs-for-Video-Understanding) |
+| Awesome AI Agents | Broad agent-engineering index of frameworks, coding agents, browser and computer-use agents, memory, sandboxes, evaluation, and safety tools; general coverage beyond this list's multimodal evidence gate | [GitHub](https://github.com/ianwieds/awesome-ai-agents) |
 
 ## Contributing and Curation
 
