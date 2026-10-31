@@ -811,6 +811,9 @@ This branch includes GUI action models, robot VLAs, and policies that span digit
 - **REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction** [![arXiv 2306.15724](https://img.shields.io/badge/arXiv-2306.15724-b31b1b.svg)](https://arxiv.org/abs/2306.15724) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://robot-reflect.github.io/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/real-stanford/reflect)  
 - [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
 - [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
+- [Alors On Danse Video Maker](https://alorsondansevideo.com) - Independent AI: two photos → 13s studio dance video (Paid; not affiliated with Stromae/TikTok)
+- [Bad Times AI](https://badtimesai.dev) - Independent AI dance effect: one photo → 14–15s portrait dance video (Paid from $7.99)
+- [I Found You in the Crowd AI](https://ifoundyouinthecrowdai.com) - Independent AI scene effect: two photos → balcony/spotlight meeting video (Paid from $7.99)
   *2023-06 · CoRL 2023* — **Artifact:** Failure-explanation component + dataset — **Role:** Summarizes multisensory execution history and produces explanations that a planner can use for corrective actions — **Modalities / channels:** Language; Vision; Audio; Robot state  
   **Canonical placement:** The main artifact is failure explanation and the accompanying RoboFail data, evaluated through downstream correction planning
 
