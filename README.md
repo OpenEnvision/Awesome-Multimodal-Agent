@@ -283,6 +283,7 @@ The agent acts by selecting evidence, invoking analysis or retrieval tools, upda
 - **LensWalk** [![arXiv 2603.24558](https://img.shields.io/badge/arXiv-2603.24558-b31b1b.svg)](https://arxiv.org/abs/2603.24558)  
   *2026-03 · CVPR 2026* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Plan/reason; Use tools/control; Verify/reflect — **Temporal:** Long-horizon — **Participants:** Single agent  
   **Agent loop:** A reason-plan-observe loop changes temporal scope and sampling density after each returned visual observation
+
 - **VideoARM** [![arXiv 2512.12360](https://img.shields.io/badge/arXiv-2512.12360-b31b1b.svg)](https://arxiv.org/abs/2512.12360)  
   *2025-12 · CVPR 2026* — **Modalities:** Video; Language — **Capabilities:** Perceive/retrieve; Use tools/control; Remember — **Temporal:** Long-horizon — **Participants:** Single agent  
   **Agent loop:** Repeats observation, coarse-to-fine tool action, returned evidence, and hierarchical-memory update before deciding again
@@ -619,6 +620,10 @@ These works enable multimodal agents but are not presented as end-to-end systems
 
 ### 4.1 Omni-Modal and Interactive Models
 
+- **OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction** [![arXiv 2610.01762](https://img.shields.io/badge/arXiv-2610.01762-b31b1b.svg)](https://arxiv.org/abs/2610.01762) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/MCG-NJU/OneStreamer)  
+  *2026-10 · Preprint* — **Artifact:** Model — **Role:** Query-independent hierarchical caption memory and proactive streaming responses — **Modalities / channels:** Video; Language  
+  **Canonical placement:** The evaluated artifact is a streaming interaction model and its learned memory/response policy
+
 - **Multimodal Duplex Interaction Agent (Gander)** <a id="gander"></a> [![arXiv 2609.08977](https://img.shields.io/badge/arXiv-2609.08977-b31b1b.svg)](https://arxiv.org/abs/2609.08977) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://omni-interaction-gander.github.io/Omni-Interaction-Agent/) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/Omni-Interaction-Gander/Omni-Interaction-Agent)  
   *2026-09 · Technical report* — **Artifact:** Native duplex model + orchestration architecture — **Role:** Streaming Thinker-Talker interaction with an asynchronous reasoning and tool-use partner — **Modalities / channels:** Text; Images/video; Streaming speech; Tool messages  
   **Canonical placement:** The principal artifact is Gander's interactive model architecture; evaluated tool-assisted tasks do not establish unrestricted long-horizon deployment
@@ -628,6 +633,14 @@ These works enable multimodal agents but are not presented as end-to-end systems
 - **MOSS-VL Technical Report** <a id="moss-vl"></a> [![arXiv 2608.15045](https://img.shields.io/badge/arXiv-2608.15045-b31b1b.svg)](https://arxiv.org/abs/2608.15045) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/OpenMOSS/MOSS-VL)  
   *2026-08 · Technical report* — **Artifact:** Streaming video-language model — **Role:** Continues ingesting video during generation and learns when to speak or remain silent — **Modalities / channels:** Video; Language; Streaming temporal context  
   **Canonical placement:** The report evaluates the real-time model and training recipe; responsiveness alone is not evidence of a complete task-execution agent
+- **VideoChat3: Fully Open Video MLLM for Efficient and Generalist Video Understanding** [![arXiv 2607.14935](https://img.shields.io/badge/arXiv-2607.14935-b31b1b.svg)](https://arxiv.org/abs/2607.14935) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/MCG-NJU/VideoChat3)  
+  *2026-07 · Preprint* — **Artifact:** Model — **Role:** Generalist video understanding with spatiotemporal compression and proactive online response — **Modalities / channels:** Video; Language  
+  **Canonical placement:** The primary artifact is a trained video-language model, not a separate task-execution runtime
+
+- **JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence** [![arXiv 2606.14777](https://img.shields.io/badge/arXiv-2606.14777-b31b1b.svg)](https://arxiv.org/abs/2606.14777) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/jd-opensource/JoyAI-VL-Interaction)  
+  *2026-06 · Preprint* — **Artifact:** Interaction model + streaming system — **Role:** Learned silence, response and asynchronous background-delegation decisions with hierarchical video summaries — **Modalities / channels:** Video; Language; Background tool/model results  
+  **Canonical placement:** The primary artifacts are a vision-first trained interaction model and concurrent serving framework; the background brain and ASR/TTS adapters are pluggable
+
 - **DyaPlex** [![arXiv 2606.03874](https://img.shields.io/badge/arXiv-2606.03874-b31b1b.svg)](https://arxiv.org/abs/2606.03874)  
   *2026-06 · Preprint* — **Artifact:** Model — **Role:** Streaming full-duplex speech-motion generation for dyadic interaction — **Modalities / channels:** Speech; Human and agent motion  
   **Canonical placement:** Reciprocal streaming behavior is learned inside the model; a separately evaluated planning or tool-use layer is not contributed
@@ -757,6 +770,14 @@ This branch includes GUI action models, robot VLAs, and policies that span digit
 
 ### 4.3 Spatial, Memory, and Tool-Use Models and Components
 
+- **MJev-Spatial: System One Spatial Intelligence via Native Attention Matching** [![arXiv 2610.22276](https://img.shields.io/badge/arXiv-2610.22276-b31b1b.svg)](https://arxiv.org/abs/2610.22276) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/Fr0zenCrane/MJev-Spatial)  
+  *2026-10 · Preprint* — **Artifact:** Spatial decision model / component — **Role:** Native query/key candidate scoring for spatial choices, numerical bins and coarse-to-fine 2D pointing — **Modalities / channels:** Images or ordered video observations; Language  
+  **Canonical placement:** Evaluates a reusable spatial-perception readout on VQA and pointing tasks, including robot-oriented benchmarks; a robot action policy is not the evaluated artifact
+
+- **VideoJev: System One Model for Video Understanding and Interaction** [![arXiv 2610.18615](https://img.shields.io/badge/arXiv-2610.18615-b31b1b.svg)](https://arxiv.org/abs/2610.18615) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/MCG-NJU/VideoJev)  
+  *2026-10 · Preprint* — **Artifact:** Video decision model / component — **Role:** Shared candidate-scoring head for temporal intervals and textual options with joint/cached video-prefix computation — **Modalities / channels:** Video; Language  
+  **Canonical placement:** Evaluates a reusable structured decision interface through temporal grounding and multiple-choice video QA, supplying event spans or answer choices that a caller can compose into workflows
+
 - **MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents** <a id="memo"></a> [![arXiv 2609.07471](https://img.shields.io/badge/arXiv-2609.07471-b31b1b.svg)](https://arxiv.org/abs/2609.07471)  
   *2026-09 · Preprint* — **Artifact:** Evidence-selection and memory-readout component — **Role:** Allocates evidence to textual, rendered-visual, or dual-channel carriers under a context budget — **Modalities / channels:** Retrieved text; Rendered document images; Source metadata  
   **Canonical placement:** The learned memory organizer is the evaluated component; rendering text as images does not establish independent visual information in every downstream task
@@ -787,6 +808,10 @@ This branch includes GUI action models, robot VLAs, and policies that span digit
 - **MMA: Multimodal Memory Agent** <a id="mma"></a> [![arXiv 2602.16493](https://img.shields.io/badge/arXiv-2602.16493-b31b1b.svg)](https://arxiv.org/abs/2602.16493) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/AIGeeksGroup/MMA)  
   *2026-02 · Preprint* — **Artifact:** Reliability-aware memory component — **Role:** Weights evidence by credibility, age, and cross-modal conflict, with abstention when support is insufficient — **Modalities / channels:** Language; Images; Source and time metadata  
   **Canonical placement:** The primary artifact is memory readout and belief updating; synthetic MMA-Bench is attached, and text-only evaluation tracks are not treated as multimodal evidence
+- **Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning** [![arXiv 2601.23224](https://img.shields.io/badge/arXiv-2601.23224-b31b1b.svg)](https://arxiv.org/abs/2601.23224) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/MCG-NJU/Video-o3)  
+  *2026-01 · ICML 2026* — **Artifact:** Native video tool-use model — **Role:** Selects visual clues, incorporates returned observations, and updates later reasoning or stopping decisions — **Modalities / channels:** Video; Language  
+  **Canonical placement:** The primary contribution is the learned interleaved clue-seeking policy and SFT/RL training, rather than a separate general-purpose agent runtime
+
 - **Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection** [![arXiv 2412.04455](https://img.shields.io/badge/arXiv-2412.04455-b31b1b.svg)](https://arxiv.org/abs/2412.04455) [![Project](https://img.shields.io/badge/Project-Page-2563eb.svg)](https://zhoues.github.io/Code-as-Monitor/)  
   *2024-12 · CVPR 2025* — **Artifact:** Execution-monitoring component — **Role:** Generates code that checks visual spatio-temporal constraints for reactive failure detection and proactive intervention — **Modalities / channels:** Language; Images; Tracked geometric elements  
   **Canonical placement:** Supplies monitoring to an existing controller; the principal result is the verifier rather than a standalone task agent
