@@ -22,7 +22,7 @@
       "label": "Models & components",
       "fullName": "Agent Models, Policies, and Components",
       "description": "Interactive models, action policies, memory, and reusable components.",
-      "count": 63
+      "count": 65
     },
     {
       "number": 5,
@@ -154,7 +154,7 @@
       "level": 3,
       "collection": "models",
       "parent": "models",
-      "count": 14
+      "count": 15
     },
     {
       "id": "models/4-2",
@@ -172,7 +172,7 @@
       "level": 3,
       "collection": "models",
       "parent": "models",
-      "count": 19
+      "count": 20
     },
     {
       "id": "methods/5-1",
@@ -8758,7 +8758,7 @@
       "anchor": null
     },
     {
-      "id": "bd1b74e4b248fd25",
+      "id": "f0e0c143625007b1",
       "collection": "models",
       "section": "models/4-1",
       "path": [
@@ -8769,6 +8769,71 @@
       ],
       "sourceLine": 640,
       "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L640",
+      "title": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence",
+      "date": "2026-06",
+      "year": 2026,
+      "venue": "Preprint",
+      "notes": "Learned silence, response and asynchronous background-delegation decisions with hierarchical video summaries",
+      "tasks": "",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2606.14777"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/jd-opensource/JoyAI-VL-Interaction"
+        }
+      ],
+      "fields": [
+        {
+          "label": "Title",
+          "value": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence"
+        },
+        {
+          "label": "First public release",
+          "value": "2026-06"
+        },
+        {
+          "label": "Publication status",
+          "value": "Preprint"
+        },
+        {
+          "label": "Artifact",
+          "value": "Interaction model + streaming system",
+          "links": []
+        },
+        {
+          "label": "Role",
+          "value": "Learned silence, response and asynchronous background-delegation decisions with hierarchical video summaries",
+          "links": []
+        },
+        {
+          "label": "Modalities / channels",
+          "value": "Video; Language; Background tool/model results",
+          "links": []
+        },
+        {
+          "label": "Canonical placement",
+          "value": "The primary artifacts are a vision-first trained interaction model and concurrent serving framework; the background brain and ASR/TTS adapters are pluggable",
+          "links": []
+        }
+      ],
+      "kind": "Research entry",
+      "anchor": null
+    },
+    {
+      "id": "bd1b74e4b248fd25",
+      "collection": "models",
+      "section": "models/4-1",
+      "path": [
+        "Omni-Modal and Interactive Models"
+      ],
+      "ancestors": [
+        "models/4-1"
+      ],
+      "sourceLine": 644,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L644",
       "title": "DyaPlex",
       "date": "2026-06",
       "year": 2026,
@@ -8828,8 +8893,8 @@
       "ancestors": [
         "models/4-1"
       ],
-      "sourceLine": 643,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L643",
+      "sourceLine": 647,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L647",
       "title": "StepAudio 2.5",
       "date": "2026-05",
       "year": 2026,
@@ -8889,8 +8954,8 @@
       "ancestors": [
         "models/4-1"
       ],
-      "sourceLine": 646,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L646",
+      "sourceLine": 650,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L650",
       "title": "MiniCPM-o 4.5",
       "date": "2026-04",
       "year": 2026,
@@ -8954,8 +9019,8 @@
       "ancestors": [
         "models/4-1"
       ],
-      "sourceLine": 649,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L649",
+      "sourceLine": 653,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L653",
       "title": "Unit-Based Agent for Semi-Cascaded Full-Duplex Dialogue Systems",
       "date": "2026-01",
       "year": 2026,
@@ -9019,8 +9084,8 @@
       "ancestors": [
         "models/4-1"
       ],
-      "sourceLine": 652,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L652",
+      "sourceLine": 656,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L656",
       "title": "UI2Code^N: UI-to-Code Generation as Interactive Visual Optimization",
       "date": "2025-11",
       "year": 2025,
@@ -9084,8 +9149,8 @@
       "ancestors": [
         "models/4-1"
       ],
-      "sourceLine": 655,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L655",
+      "sourceLine": 659,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L659",
       "title": "Qwen3-Omni",
       "date": "2025-09",
       "year": 2025,
@@ -9149,8 +9214,8 @@
       "ancestors": [
         "models/4-1"
       ],
-      "sourceLine": 658,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L658",
+      "sourceLine": 662,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L662",
       "title": "Qwen2.5-Omni",
       "date": "2025-03",
       "year": 2025,
@@ -9214,8 +9279,8 @@
       "ancestors": [
         "models/4-1"
       ],
-      "sourceLine": 661,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L661",
+      "sourceLine": 665,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L665",
       "title": "Moshi",
       "date": "2024-10",
       "year": 2024,
@@ -9279,8 +9344,8 @@
       "ancestors": [
         "models/4-1"
       ],
-      "sourceLine": 664,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L664",
+      "sourceLine": 668,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L668",
       "title": "VITA",
       "date": "2024-08",
       "year": 2024,
@@ -9344,8 +9409,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 674,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L674",
+      "sourceLine": 678,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L678",
       "title": "BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents",
       "date": "2026-09",
       "year": 2026,
@@ -9405,8 +9470,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 677,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L677",
+      "sourceLine": 681,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L681",
       "title": "Qwen-CUA: Native Computer Use for (almost) Everything",
       "date": "2026-08",
       "year": 2026,
@@ -9466,8 +9531,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 680,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L680",
+      "sourceLine": 684,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L684",
       "title": "WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN",
       "date": "2026-08",
       "year": 2026,
@@ -9527,8 +9592,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 683,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L683",
+      "sourceLine": 687,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L687",
       "title": "Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence",
       "date": "2026-08",
       "year": 2026,
@@ -9588,8 +9653,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 686,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L686",
+      "sourceLine": 690,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L690",
       "title": "RoboTTT: Context Scaling for Robot Policies",
       "date": "2026-07",
       "year": 2026,
@@ -9653,8 +9718,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 689,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L689",
+      "sourceLine": 693,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L693",
       "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
       "date": "2026-07",
       "year": 2026,
@@ -9714,8 +9779,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 692,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L692",
+      "sourceLine": 696,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L696",
       "title": "π0.7: A Steerable Model with Emergent Capabilities",
       "date": "2026-04",
       "year": 2026,
@@ -9779,8 +9844,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 695,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L695",
+      "sourceLine": 699,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L699",
       "title": "Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents (GUI-Owl-1.5)",
       "date": "2026-02",
       "year": 2026,
@@ -9844,8 +9909,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 698,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L698",
+      "sourceLine": 702,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L702",
       "title": "OmniActor",
       "date": "2025-09",
       "year": 2025,
@@ -9905,8 +9970,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 701,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L701",
+      "sourceLine": 705,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L705",
       "title": "UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning",
       "date": "2025-09",
       "year": 2025,
@@ -9974,8 +10039,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 704,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L704",
+      "sourceLine": 708,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L708",
       "title": "OmniVTLA",
       "date": "2025-08",
       "year": 2025,
@@ -10035,8 +10100,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 707,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L707",
+      "sourceLine": 711,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L711",
       "title": "OpenCUA: Open Foundations for Computer-Use Agents",
       "date": "2025-08",
       "year": 2025,
@@ -10104,8 +10169,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 710,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L710",
+      "sourceLine": 714,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L714",
       "title": "SmolVLA",
       "date": "2025-06",
       "year": 2025,
@@ -10169,8 +10234,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 713,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L713",
+      "sourceLine": 717,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L717",
       "title": "π0.5",
       "date": "2025-04",
       "year": 2025,
@@ -10244,8 +10309,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 717,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L717",
+      "sourceLine": 721,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L721",
       "title": "Gemini Robotics",
       "date": "2025-03",
       "year": 2025,
@@ -10314,8 +10379,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 720,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L720",
+      "sourceLine": 724,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L724",
       "title": "GR00T N1",
       "date": "2025-03",
       "year": 2025,
@@ -10389,8 +10454,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 724,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L724",
+      "sourceLine": 728,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L728",
       "title": "Magma",
       "date": "2025-02",
       "year": 2025,
@@ -10458,8 +10523,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 727,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L727",
+      "sourceLine": 731,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L731",
       "title": "π0",
       "date": "2024-10",
       "year": 2024,
@@ -10523,8 +10588,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 730,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L730",
+      "sourceLine": 734,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L734",
       "title": "OpenVLA",
       "date": "2024-06",
       "year": 2024,
@@ -10588,8 +10653,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 733,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L733",
+      "sourceLine": 737,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L737",
       "title": "Octo",
       "date": "2024-05",
       "year": 2024,
@@ -10653,8 +10718,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 736,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L736",
+      "sourceLine": 740,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L740",
       "title": "3D-VLA",
       "date": "2024-03",
       "year": 2024,
@@ -10718,8 +10783,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 739,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L739",
+      "sourceLine": 743,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L743",
       "title": "RT-H",
       "date": "2024-03",
       "year": 2024,
@@ -10783,8 +10848,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 742,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L742",
+      "sourceLine": 746,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L746",
       "title": "Interactive Agent Foundation Model",
       "date": "2024-02",
       "year": 2024,
@@ -10844,8 +10909,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 745,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L745",
+      "sourceLine": 749,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L749",
       "title": "RoboFlamingo",
       "date": "2023-11",
       "year": 2023,
@@ -10913,8 +10978,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 748,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L748",
+      "sourceLine": 752,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L752",
       "title": "RT-2",
       "date": "2023-07",
       "year": 2023,
@@ -10978,8 +11043,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 751,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L751",
+      "sourceLine": 755,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L755",
       "title": "RoboCat",
       "date": "2023-06",
       "year": 2023,
@@ -11043,8 +11108,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 754,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L754",
+      "sourceLine": 758,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L758",
       "title": "PaLM-E",
       "date": "2023-03",
       "year": 2023,
@@ -11108,8 +11173,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 757,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L757",
+      "sourceLine": 761,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L761",
       "title": "RT-1",
       "date": "2022-12",
       "year": 2022,
@@ -11173,8 +11238,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 760,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L760",
+      "sourceLine": 764,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L764",
       "title": "VIMA",
       "date": "2022-10",
       "year": 2022,
@@ -11238,8 +11303,8 @@
       "ancestors": [
         "models/4-2"
       ],
-      "sourceLine": 763,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L763",
+      "sourceLine": 767,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L767",
       "title": "Gato",
       "date": "2022-05",
       "year": 2022,
@@ -11290,6 +11355,71 @@
       "anchor": null
     },
     {
+      "id": "26dac8739da0e994",
+      "collection": "models",
+      "section": "models/4-3",
+      "path": [
+        "Spatial, Memory, and Tool-Use Models and Components"
+      ],
+      "ancestors": [
+        "models/4-3"
+      ],
+      "sourceLine": 773,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L773",
+      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+      "date": "2026-10",
+      "year": 2026,
+      "venue": "Preprint",
+      "notes": "Native query/key candidate scoring for spatial choices, numerical bins and coarse-to-fine 2D pointing",
+      "tasks": "",
+      "resources": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.22276"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Fr0zenCrane/MJev-Spatial"
+        }
+      ],
+      "fields": [
+        {
+          "label": "Title",
+          "value": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching"
+        },
+        {
+          "label": "First public release",
+          "value": "2026-10"
+        },
+        {
+          "label": "Publication status",
+          "value": "Preprint"
+        },
+        {
+          "label": "Artifact",
+          "value": "Spatial decision model / component",
+          "links": []
+        },
+        {
+          "label": "Role",
+          "value": "Native query/key candidate scoring for spatial choices, numerical bins and coarse-to-fine 2D pointing",
+          "links": []
+        },
+        {
+          "label": "Modalities / channels",
+          "value": "Images or ordered video observations; Language",
+          "links": []
+        },
+        {
+          "label": "Canonical placement",
+          "value": "Evaluates a reusable spatial-perception readout on VQA and pointing tasks, including robot-oriented benchmarks; a robot action policy is not the evaluated artifact",
+          "links": []
+        }
+      ],
+      "kind": "Research entry",
+      "anchor": null
+    },
+    {
       "id": "dc41f87c0e30bb08",
       "collection": "models",
       "section": "models/4-3",
@@ -11299,8 +11429,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 769,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L769",
+      "sourceLine": 777,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L777",
       "title": "MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents",
       "date": "2026-09",
       "year": 2026,
@@ -11360,8 +11490,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 772,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L772",
+      "sourceLine": 780,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L780",
       "title": "AVA-Encoder: Towards Agent-Native Video Representation Learning",
       "date": "2026-08",
       "year": 2026,
@@ -11421,8 +11551,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 775,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L775",
+      "sourceLine": 783,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L783",
       "title": "StepReflect: Structured UI Transition Reflection for Mobile GUI Agents",
       "date": "2026-08",
       "year": 2026,
@@ -11482,8 +11612,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 778,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L778",
+      "sourceLine": 786,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L786",
       "title": "ToolArtist",
       "date": "2026-08",
       "year": 2026,
@@ -11543,8 +11673,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 781,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L781",
+      "sourceLine": 789,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L789",
       "title": "V-Mem: Modality-Routed Retrieval for Long-Term Multimodal Agentic Memory",
       "date": "2026-08",
       "year": 2026,
@@ -11608,8 +11738,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 784,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L784",
+      "sourceLine": 792,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L792",
       "title": "PMMC: Prospective Multimodal Memory Compilation for Long-Term LVLM Agents",
       "date": "2026-08",
       "year": 2026,
@@ -11669,8 +11799,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 787,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L787",
+      "sourceLine": 795,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L795",
       "title": "Mimir: A Neuro-Symbolic Memory System with Dynamic Grounding for Embodied Agents in Interactive Environments",
       "date": "2026-08",
       "year": 2026,
@@ -11730,8 +11860,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 790,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L790",
+      "sourceLine": 798,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L798",
       "title": "StreamSoccer: Event-Driven Memory for Streaming Soccer Commentary",
       "date": "2026-08",
       "year": 2026,
@@ -11791,8 +11921,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 793,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L793",
+      "sourceLine": 801,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L801",
       "title": "Parametric Multimodal User Memory: Storing What Captions Cannot Carry",
       "date": "2026-07",
       "year": 2026,
@@ -11856,8 +11986,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 796,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L796",
+      "sourceLine": 804,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L804",
       "title": "MMA: Multimodal Memory Agent",
       "date": "2026-02",
       "year": 2026,
@@ -11921,8 +12051,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 799,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L799",
+      "sourceLine": 807,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L807",
       "title": "Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning",
       "date": "2026-01",
       "year": 2026,
@@ -11986,8 +12116,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 803,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L803",
+      "sourceLine": 811,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L811",
       "title": "Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection",
       "date": "2024-12",
       "year": 2024,
@@ -12051,8 +12181,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 806,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L806",
+      "sourceLine": 814,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L814",
       "title": "AHA: A Vision-Language-Model for Detecting and Reasoning Over Failures in Robotic Manipulation",
       "date": "2024-10",
       "year": 2024,
@@ -12120,8 +12250,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 809,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L809",
+      "sourceLine": 817,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L817",
       "title": "OmniParser for Pure Vision Based GUI Agent",
       "date": "2024-08",
       "year": 2024,
@@ -12185,8 +12315,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 812,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L812",
+      "sourceLine": 820,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L820",
       "title": "SpatialVLM",
       "date": "2024-01",
       "year": 2024,
@@ -12250,8 +12380,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 815,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L815",
+      "sourceLine": 823,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L823",
       "title": "MultiPLY",
       "date": "2024-01",
       "year": 2024,
@@ -12315,8 +12445,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 818,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L818",
+      "sourceLine": 826,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L826",
       "title": "LLaVA-Plus",
       "date": "2023-11",
       "year": 2023,
@@ -12376,8 +12506,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 821,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L821",
+      "sourceLine": 829,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L829",
       "title": "ConceptGraphs",
       "date": "2023-09",
       "year": 2023,
@@ -12446,8 +12576,8 @@
       "ancestors": [
         "models/4-3"
       ],
-      "sourceLine": 824,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L824",
+      "sourceLine": 832,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L832",
       "title": "REFLECT: Summarizing Robot Experiences for Failure Explanation and Correction",
       "date": "2023-06",
       "year": 2023,
@@ -12515,8 +12645,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 836,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L836",
+      "sourceLine": 844,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L844",
       "title": "Screenshots or Tools? Eliciting Tool Use and Managing Multimodal Context in Hybrid GUI-MCP Computer-Use Agents",
       "date": "2026-08",
       "year": 2026,
@@ -12571,8 +12701,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 839,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L839",
+      "sourceLine": 847,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L847",
       "title": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
       "date": "2026-08",
       "year": 2026,
@@ -12631,8 +12761,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 842,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L842",
+      "sourceLine": 850,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L850",
       "title": "VideoCoCo: Code-as-CoT for Physically-Consistent Video Generation via an Agentic Dual-Engine System",
       "date": "2026-07",
       "year": 2026,
@@ -12687,8 +12817,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 845,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L845",
+      "sourceLine": 853,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L853",
       "title": "Knowledge-Centric Agents for Workflow Generation in ComfyUI",
       "date": "2026-07",
       "year": 2026,
@@ -12743,8 +12873,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 848,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L848",
+      "sourceLine": 856,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L856",
       "title": "Harness VLA / RPent: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
       "date": "2026-07",
       "year": 2026,
@@ -12807,8 +12937,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 851,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L851",
+      "sourceLine": 859,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L859",
       "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
       "date": "2026-07",
       "year": 2026,
@@ -12871,8 +13001,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 854,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L854",
+      "sourceLine": 862,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L862",
       "title": "Claude plays robotics",
       "date": "2026-07",
       "year": 2026,
@@ -12927,8 +13057,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 857,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L857",
+      "sourceLine": 865,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L865",
       "title": "Silent Failures in Multimodal Agentic Search:A Diagnostic Taxonomy and Cross-Judge Evaluation",
       "date": "2026-07",
       "year": 2026,
@@ -12992,8 +13122,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 860,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L860",
+      "sourceLine": 868,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L868",
       "title": "Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation",
       "date": "2026-06",
       "year": 2026,
@@ -13048,8 +13178,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 863,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L863",
+      "sourceLine": 871,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L871",
       "title": "Guava: An Effective and Universal Harness for Embodied Manipulation",
       "date": "2026-06",
       "year": 2026,
@@ -13108,8 +13238,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 866,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L866",
+      "sourceLine": 874,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L874",
       "title": "What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents",
       "date": "2026-06",
       "year": 2026,
@@ -13168,8 +13298,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 869,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L869",
+      "sourceLine": 877,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L877",
       "title": "Do Multimodal Agents Really Benefit from Tool Use? A Systematic Study of Capability Gains",
       "date": "2026-06",
       "year": 2026,
@@ -13224,8 +13354,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 872,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L872",
+      "sourceLine": 880,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L880",
       "title": "GenClaw: Code-Driven Agentic Image Generation",
       "date": "2026-05",
       "year": 2026,
@@ -13280,8 +13410,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 875,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L875",
+      "sourceLine": 883,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L883",
       "title": "Enabling Extensible Embodied Capabilities with Tools",
       "date": "2026-05",
       "year": 2026,
@@ -13340,8 +13470,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 878,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L878",
+      "sourceLine": 886,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L886",
       "title": "WebVIA: Webpage Generation Benchmark and Multimodal Agentic Framework for Visually Rich Webpages",
       "date": "2025-11",
       "year": 2025,
@@ -13396,8 +13526,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 881,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L881",
+      "sourceLine": 889,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L889",
       "title": "PresentAgent",
       "date": "2025-07",
       "year": 2025,
@@ -13456,8 +13586,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 884,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L884",
+      "sourceLine": 892,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L892",
       "title": "DesignCoder: Hierarchy-Aware and Self-Correcting UI Code Generation with Large Language Models",
       "date": "2025-06",
       "year": 2025,
@@ -13512,8 +13642,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 887,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L887",
+      "sourceLine": 895,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L895",
       "title": "PPTAgent: Generating and Evaluating Presentations Beyond Text-to-Slides",
       "date": "2025-01",
       "year": 2025,
@@ -13568,8 +13698,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 890,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L890",
+      "sourceLine": 898,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L898",
       "title": "ReKep: Spatio-Temporal Reasoning of Relational Keypoint Constraints for Robotic Manipulation",
       "date": "2024-09",
       "year": 2024,
@@ -13632,8 +13762,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 893,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L893",
+      "sourceLine": 901,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L901",
       "title": "Set-of-Mark Prompting",
       "date": "2023-10",
       "year": 2023,
@@ -13692,8 +13822,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 896,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L896",
+      "sourceLine": 904,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L904",
       "title": "ControlLLM",
       "date": "2023-10",
       "year": 2023,
@@ -13752,8 +13882,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 899,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L899",
+      "sourceLine": 907,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L907",
       "title": "MusicAgent",
       "date": "2023-10",
       "year": 2023,
@@ -13812,8 +13942,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 902,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L902",
+      "sourceLine": 910,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L910",
       "title": "SayPlan: Grounding Large Language Models using 3D Scene Graphs for Scalable Robot Task Planning",
       "date": "2023-07",
       "year": 2023,
@@ -13872,8 +14002,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 905,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L905",
+      "sourceLine": 913,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L913",
       "title": "GPT4Tools",
       "date": "2023-05",
       "year": 2023,
@@ -13932,8 +14062,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 908,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L908",
+      "sourceLine": 916,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L916",
       "title": "Chameleon",
       "date": "2023-04",
       "year": 2023,
@@ -13992,8 +14122,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 911,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L911",
+      "sourceLine": 919,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L919",
       "title": "HuggingGPT",
       "date": "2023-03",
       "year": 2023,
@@ -14052,8 +14182,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 914,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L914",
+      "sourceLine": 922,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L922",
       "title": "MM-REACT",
       "date": "2023-03",
       "year": 2023,
@@ -14112,8 +14242,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 917,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L917",
+      "sourceLine": 925,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L925",
       "title": "ViperGPT",
       "date": "2023-03",
       "year": 2023,
@@ -14172,8 +14302,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 920,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L920",
+      "sourceLine": 928,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L928",
       "title": "VisProg",
       "date": "2022-11",
       "year": 2022,
@@ -14232,8 +14362,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 923,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L923",
+      "sourceLine": 931,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L931",
       "title": "ProgPrompt: Generating Situated Robot Task Plans using Large Language Models",
       "date": "2022-09",
       "year": 2022,
@@ -14296,8 +14426,8 @@
       "ancestors": [
         "methods/5-1"
       ],
-      "sourceLine": 926,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L926",
+      "sourceLine": 934,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L934",
       "title": "Socratic Models",
       "date": "2022-04",
       "year": 2022,
@@ -14356,8 +14486,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 932,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L932",
+      "sourceLine": 940,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L940",
       "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
       "date": "2026-09",
       "year": 2026,
@@ -14416,8 +14546,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 935,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L935",
+      "sourceLine": 943,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L943",
       "title": "ToolVision: Learning When and How to Use Visual Tools with Capability-Aligned Supervision",
       "date": "2026-08",
       "year": 2026,
@@ -14472,8 +14602,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 938,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L938",
+      "sourceLine": 946,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L946",
       "title": "OpenVisTool: An Open Recipe for Synthesizing Instructive Visual Tool-Use Trajectories",
       "date": "2026-08",
       "year": 2026,
@@ -14528,8 +14658,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 941,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L941",
+      "sourceLine": 949,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L949",
       "title": "What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems",
       "date": "2026-08",
       "year": 2026,
@@ -14584,8 +14714,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 944,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L944",
+      "sourceLine": 952,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L952",
       "title": "iARCS: Iterative Agentic RL for Controllable 3D Scene Generation",
       "date": "2026-08",
       "year": 2026,
@@ -14640,8 +14770,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 947,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L947",
+      "sourceLine": 955,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L955",
       "title": "Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
       "date": "2026-08",
       "year": 2026,
@@ -14704,8 +14834,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 950,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L950",
+      "sourceLine": 958,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L958",
       "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
       "date": "2026-08",
       "year": 2026,
@@ -14760,8 +14890,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 953,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L953",
+      "sourceLine": 961,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L961",
       "title": "AgenticRobotics: You Don't Need To Stay in The Loop",
       "date": "2026-08",
       "year": 2026,
@@ -14816,8 +14946,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 956,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L956",
+      "sourceLine": 964,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L964",
       "title": "Plans You Can Check: Verifier-Grounded Learning of an Open-Weight Planner for Executable Video-Editing (RefineCut)",
       "date": "2026-08",
       "year": 2026,
@@ -14880,8 +15010,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 959,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L959",
+      "sourceLine": 967,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L967",
       "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
       "date": "2026-08",
       "year": 2026,
@@ -14944,8 +15074,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 962,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L962",
+      "sourceLine": 970,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L970",
       "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
       "date": "2026-07",
       "year": 2026,
@@ -15000,8 +15130,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 965,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L965",
+      "sourceLine": 973,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L973",
       "title": "VideoWeaver: Evaluating and Evolving Skills for Agentic Long Video Generation",
       "date": "2026-06",
       "year": 2026,
@@ -15060,8 +15190,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 968,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L968",
+      "sourceLine": 976,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L976",
       "title": "MemoGen: Can Past Experience Improve Future Text-to-Image Generation?",
       "date": "2026-06",
       "year": 2026,
@@ -15120,8 +15250,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 971,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L971",
+      "sourceLine": 979,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L979",
       "title": "OctoT2I: A Self-Evolving Agentic Text-to-Image Router",
       "date": "2026-06",
       "year": 2026,
@@ -15180,8 +15310,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 974,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L974",
+      "sourceLine": 982,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L982",
       "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
       "date": "2026-06",
       "year": 2026,
@@ -15244,8 +15374,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 977,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L977",
+      "sourceLine": 985,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L985",
       "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
       "date": "2026-06",
       "year": 2026,
@@ -15308,8 +15438,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 980,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L980",
+      "sourceLine": 988,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L988",
       "title": "Playful Agentic Robot Learning",
       "date": "2026-06",
       "year": 2026,
@@ -15372,8 +15502,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 983,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L983",
+      "sourceLine": 991,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L991",
       "title": "Task-Focused Memorization for Multimodal Agents",
       "date": "2026-05",
       "year": 2026,
@@ -15428,8 +15558,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 986,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L986",
+      "sourceLine": 994,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L994",
       "title": "GenEvolve: Self-Evolving Image Generation Agents via Tool-Orchestrated Visual Experience Distillation",
       "date": "2026-05",
       "year": 2026,
@@ -15492,8 +15622,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 989,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L989",
+      "sourceLine": 997,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L997",
       "title": "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents",
       "date": "2026-05",
       "year": 2026,
@@ -15556,8 +15686,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 992,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L992",
+      "sourceLine": 1000,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1000",
       "title": "Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
       "date": "2026-05",
       "year": 2026,
@@ -15612,8 +15742,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 995,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L995",
+      "sourceLine": 1003,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1003",
       "title": "Vision-DeepResearch: Incentivizing DeepResearch Capability in Multimodal Large Language Models",
       "date": "2026-01",
       "year": 2026,
@@ -15672,8 +15802,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 998,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L998",
+      "sourceLine": 1006,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1006",
       "title": "Scaling Agentic Reinforcement Learning for Tool-Integrated Reasoning in VLMs (VISTA-Gym / VISTA-R1)",
       "date": "2025-11",
       "year": 2025,
@@ -15732,8 +15862,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 1001,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1001",
+      "sourceLine": 1009,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1009",
       "title": "DeepEyesV2: Toward Agentic Multimodal Model",
       "date": "2025-11",
       "year": 2025,
@@ -15792,8 +15922,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 1004,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1004",
+      "sourceLine": 1012,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1012",
       "title": "Scaling Agents for Computer Use (Agent S3 / BJudge)",
       "date": "2025-10",
       "year": 2025,
@@ -15857,8 +15987,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 1007,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1007",
+      "sourceLine": 1015,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1015",
       "title": "Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents",
       "date": "2025-09",
       "year": 2025,
@@ -15913,8 +16043,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 1010,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1010",
+      "sourceLine": 1018,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1018",
       "title": "Self-Improving Embodied Foundation Models",
       "date": "2025-09",
       "year": 2025,
@@ -15973,8 +16103,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 1013,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1013",
+      "sourceLine": 1021,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1021",
       "title": "SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience",
       "date": "2025-08",
       "year": 2025,
@@ -16033,8 +16163,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 1016,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1016",
+      "sourceLine": 1024,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1024",
       "title": "VisualToolAgent (VisTA)",
       "date": "2025-05",
       "year": 2025,
@@ -16093,8 +16223,8 @@
       "ancestors": [
         "methods/5-2"
       ],
-      "sourceLine": 1019,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1019",
+      "sourceLine": 1027,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1027",
       "title": "DeepEyes",
       "date": "2025-05",
       "year": 2025,
@@ -16163,8 +16293,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1026,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1026",
+      "sourceLine": 1034,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1034",
       "title": "WM-R1: Training GUI Agents to Reason and leverage World Models with Reinforcement Learning",
       "date": "2026-08",
       "year": 2026,
@@ -16223,8 +16353,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1029,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1029",
+      "sourceLine": 1037,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1037",
       "title": "World Action Planner",
       "date": "2026-07",
       "year": 2026,
@@ -16283,8 +16413,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1032,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1032",
+      "sourceLine": 1040,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1040",
       "title": "Agentic Self-Evolutionary Replanning for Embodied Navigation",
       "date": "2026-03",
       "year": 2026,
@@ -16339,8 +16469,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1035,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1035",
+      "sourceLine": 1043,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1043",
       "title": "RISE: Self-Improving Robot Policy with Compositional World Model",
       "date": "2026-02",
       "year": 2026,
@@ -16395,8 +16525,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1038,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1038",
+      "sourceLine": 1046,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1046",
       "title": "VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model",
       "date": "2026-02",
       "year": 2026,
@@ -16459,8 +16589,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1041,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1041",
+      "sourceLine": 1049,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1049",
       "title": "Genie 3: A New Frontier for World Models",
       "date": "2025-08",
       "year": 2025,
@@ -16520,8 +16650,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1044,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1044",
+      "sourceLine": 1052,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1052",
       "title": "V-JEPA 2-AC",
       "date": "2025-06",
       "year": 2025,
@@ -16580,8 +16710,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1047,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1047",
+      "sourceLine": 1055,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1055",
       "title": "COMBO: Compositional World Models for Embodied Multi-Agent Cooperation",
       "date": "2024-04",
       "year": 2024,
@@ -16644,8 +16774,8 @@
       "ancestors": [
         "methods/5-3"
       ],
-      "sourceLine": 1050,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1050",
+      "sourceLine": 1058,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1058",
       "title": "DreamerV3",
       "date": "2023-01",
       "year": 2023,
@@ -16708,8 +16838,8 @@
       "ancestors": [
         "methods/5-4"
       ],
-      "sourceLine": 1056,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1056",
+      "sourceLine": 1064,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1064",
       "title": "Spine-Branch Coordination for Multi-agent Computer Use",
       "date": "2026-08",
       "year": 2026,
@@ -16768,8 +16898,8 @@
       "ancestors": [
         "methods/5-4"
       ],
-      "sourceLine": 1059,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1059",
+      "sourceLine": 1067,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1067",
       "title": "EMOS: Embodiment-aware Heterogeneous Multi-robot Operating System with LLM Agents",
       "date": "2024-10",
       "year": 2024,
@@ -16832,8 +16962,8 @@
       "ancestors": [
         "methods/5-4"
       ],
-      "sourceLine": 1062,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1062",
+      "sourceLine": 1070,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1070",
       "title": "Conversational Language Models for Human-in-the-Loop Multi-Robot Coordination",
       "date": "2024-02",
       "year": 2024,
@@ -16888,8 +17018,8 @@
       "ancestors": [
         "methods/5-4"
       ],
-      "sourceLine": 1065,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1065",
+      "sourceLine": 1073,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1073",
       "title": "SpeechAgents",
       "date": "2024-01",
       "year": 2024,
@@ -16948,8 +17078,8 @@
       "ancestors": [
         "methods/5-4"
       ],
-      "sourceLine": 1068,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1068",
+      "sourceLine": 1076,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1076",
       "title": "Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners",
       "date": "2023-07",
       "year": 2023,
@@ -17012,8 +17142,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1086,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1086",
+      "sourceLine": 1094,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1094",
       "title": "StreamArena",
       "date": "2026-08",
       "year": 2026,
@@ -17068,8 +17198,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1089,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1089",
+      "sourceLine": 1097,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1097",
       "title": "TVIR",
       "date": "2026-06",
       "year": 2026,
@@ -17124,8 +17254,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1092,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1092",
+      "sourceLine": 1100,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1100",
       "title": "WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction",
       "date": "2026-05",
       "year": 2026,
@@ -17197,8 +17327,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1095,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1095",
+      "sourceLine": 1103,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1103",
       "title": "MMOU",
       "date": "2026-03",
       "year": 2026,
@@ -17253,8 +17383,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1098,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1098",
+      "sourceLine": 1106,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1106",
       "title": "RIVER",
       "date": "2026-03",
       "year": 2026,
@@ -17313,8 +17443,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1101,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1101",
+      "sourceLine": 1109,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1109",
       "title": "Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections (MADQA)",
       "date": "2026-03",
       "year": 2026,
@@ -17382,8 +17512,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1104,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1104",
+      "sourceLine": 1112,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1112",
       "title": "LongShOTBench",
       "date": "2025-12",
       "year": 2025,
@@ -17442,8 +17572,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1107,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1107",
+      "sourceLine": 1115,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1115",
       "title": "M3-Bench",
       "date": "2025-11",
       "year": 2025,
@@ -17502,8 +17632,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1110,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1110",
+      "sourceLine": 1118,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1118",
       "title": "MMSearch-Plus: Benchmarking Provenance-Aware Search for Multimodal Browsing Agents",
       "date": "2025-08",
       "year": 2025,
@@ -17568,8 +17698,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1113,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1113",
+      "sourceLine": 1121,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1121",
       "title": "MMAU",
       "date": "2024-10",
       "year": 2024,
@@ -17628,8 +17758,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1116,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1116",
+      "sourceLine": 1124,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1124",
       "title": "LongVideoBench",
       "date": "2024-07",
       "year": 2024,
@@ -17688,8 +17818,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1119,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1119",
+      "sourceLine": 1127,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1127",
       "title": "Video-MME",
       "date": "2024-05",
       "year": 2024,
@@ -17748,8 +17878,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1122,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1122",
+      "sourceLine": 1130,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1130",
       "title": "MMInA",
       "date": "2024-04",
       "year": 2024,
@@ -17808,8 +17938,8 @@
       "ancestors": [
         "benchmarks/6-1"
       ],
-      "sourceLine": 1125,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1125",
+      "sourceLine": 1133,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1133",
       "title": "GAIA",
       "date": "2023-11",
       "year": 2023,
@@ -17868,8 +17998,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1133,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1133",
+      "sourceLine": 1141,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1141",
       "title": "VideoVIBE: A Video-Grounded Diagnostic Benchmark for One-Shot Interactive Website Generation",
       "date": "2026-08",
       "year": 2026,
@@ -17924,8 +18054,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1136,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1136",
+      "sourceLine": 1144,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1144",
       "title": "DrawAI",
       "date": "2026-08",
       "year": 2026,
@@ -17984,8 +18114,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1139,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1139",
+      "sourceLine": 1147,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1147",
       "title": "VisEditBench: Can Vision-Language Models Edit Visualization Code from Multimodal Feedback?",
       "date": "2026-08",
       "year": 2026,
@@ -18049,8 +18179,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1142,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1142",
+      "sourceLine": 1150,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1150",
       "title": "VideoArgus: Agentic Rubric-Grounded Unified Evaluation for Video Generation and Editing",
       "date": "2026-08",
       "year": 2026,
@@ -18114,8 +18244,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1145,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1145",
+      "sourceLine": 1153,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1153",
       "title": "AVE-Compass",
       "date": "2026-07",
       "year": 2026,
@@ -18170,8 +18300,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1148,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1148",
+      "sourceLine": 1156,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1156",
       "title": "PPT-Eval: A Benchmark for Computer-Use Agents on PowerPoint Tasks",
       "date": "2026-06",
       "year": 2026,
@@ -18230,8 +18360,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1151,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1151",
+      "sourceLine": 1159,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1159",
       "title": "Automatic Slide Updating with User-Defined Dynamic Templates and Natural Language Instructions (DynaSlide)",
       "date": "2026-04",
       "year": 2026,
@@ -18286,8 +18416,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1154,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1154",
+      "sourceLine": 1162,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1162",
       "title": "Vision2Web: A Hierarchical Benchmark for Visual Website Development with Agent Verification",
       "date": "2026-03",
       "year": 2026,
@@ -18342,8 +18472,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1157,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1157",
+      "sourceLine": 1165,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1165",
       "title": "PresentBench: A Fine-Grained Rubric-Based Benchmark for Slide Generation",
       "date": "2026-03",
       "year": 2026,
@@ -18398,8 +18528,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1160,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1160",
+      "sourceLine": 1168,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1168",
       "title": "FronTalk: Benchmarking Front-End Development as Conversational Code Generation with Multi-Modal Feedback",
       "date": "2025-12",
       "year": 2025,
@@ -18454,8 +18584,8 @@
       "ancestors": [
         "benchmarks/6-2"
       ],
-      "sourceLine": 1163,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1163",
+      "sourceLine": 1171,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1171",
       "title": "PPTArena: A Benchmark for PowerPoint Editing",
       "date": "2025-12",
       "year": 2025,
@@ -18514,8 +18644,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1169,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1169",
+      "sourceLine": 1177,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1177",
       "title": "Time-Aware Assistive Navigation (TIMELI)",
       "date": "2026-09",
       "year": 2026,
@@ -18579,8 +18709,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1172,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1172",
+      "sourceLine": 1180,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1180",
       "title": "When Seeing Is Not Enough: Benchmarking Interactive Visual Grounding in LVLMs",
       "date": "2026-08",
       "year": 2026,
@@ -18644,8 +18774,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1175,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1175",
+      "sourceLine": 1183,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1183",
       "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
       "date": "2026-08",
       "year": 2026,
@@ -18709,8 +18839,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1178,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1178",
+      "sourceLine": 1186,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1186",
       "title": "JarvisBench: Always-on Intelligence Between Humans and Agents",
       "date": "2026-08",
       "year": 2026,
@@ -18778,8 +18908,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1181,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1181",
+      "sourceLine": 1189,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1189",
       "title": "VAmoS Bench: Voice Agent Simulation Bench",
       "date": "2026-07",
       "year": 2026,
@@ -18838,8 +18968,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1184,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1184",
+      "sourceLine": 1192,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1192",
       "title": "GPTNT",
       "date": "2026-06",
       "year": 2026,
@@ -18898,8 +19028,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1187,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1187",
+      "sourceLine": 1195,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1195",
       "title": "VideoFDB",
       "date": "2026-05",
       "year": 2026,
@@ -18954,8 +19084,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1190,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1190",
+      "sourceLine": 1198,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1198",
       "title": "OmniInteract",
       "date": "2026-05",
       "year": 2026,
@@ -19014,8 +19144,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1193,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1193",
+      "sourceLine": 1201,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1201",
       "title": "τ-Voice",
       "date": "2026-03",
       "year": 2026,
@@ -19074,8 +19204,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1196,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1196",
+      "sourceLine": 1204,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1204",
       "title": "VoiceAssistant-Eval",
       "date": "2025-09",
       "year": 2025,
@@ -19134,8 +19264,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1199,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1199",
+      "sourceLine": 1207,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1207",
       "title": "MultiVox",
       "date": "2025-07",
       "year": 2025,
@@ -19190,8 +19320,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1202,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1202",
+      "sourceLine": 1210,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1210",
       "title": "OmniMMI",
       "date": "2025-03",
       "year": 2025,
@@ -19246,8 +19376,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1205,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1205",
+      "sourceLine": 1213,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1213",
       "title": "VoiceBench",
       "date": "2024-10",
       "year": 2024,
@@ -19306,8 +19436,8 @@
       "ancestors": [
         "benchmarks/6-3"
       ],
-      "sourceLine": 1208,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1208",
+      "sourceLine": 1216,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1216",
       "title": "COMMA",
       "date": "2024-10",
       "year": 2024,
@@ -19366,8 +19496,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1214,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1214",
+      "sourceLine": 1222,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1222",
       "title": "JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition",
       "date": "2026-09",
       "year": 2026,
@@ -19431,8 +19561,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1217,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1217",
+      "sourceLine": 1225,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1225",
       "title": "APPSim-Bench: Bridging Real-world Apps and Reproducible Evaluation for Mobile GUI Agents",
       "date": "2026-09",
       "year": 2026,
@@ -19496,8 +19626,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1220,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1220",
+      "sourceLine": 1228,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1228",
       "title": "AgentHijack: Visual Patch Attacks on Multimodal Computer-Use Agents",
       "date": "2026-09",
       "year": 2026,
@@ -19557,8 +19687,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1223,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1223",
+      "sourceLine": 1231,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1231",
       "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
       "date": "2026-09",
       "year": 2026,
@@ -19618,8 +19748,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1226,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1226",
+      "sourceLine": 1234,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1234",
       "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
       "date": "2026-09",
       "year": 2026,
@@ -19683,8 +19813,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1229,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1229",
+      "sourceLine": 1237,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1237",
       "title": "StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection",
       "date": "2026-08",
       "year": 2026,
@@ -19739,8 +19869,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1232,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1232",
+      "sourceLine": 1240,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1240",
       "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
       "date": "2026-08",
       "year": 2026,
@@ -19800,8 +19930,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1235,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1235",
+      "sourceLine": 1243,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1243",
       "title": "CUADebug: Diagnosing and Repairing Computer-Use Agent Failures",
       "date": "2026-07",
       "year": 2026,
@@ -19856,8 +19986,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1238,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1238",
+      "sourceLine": 1246,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1246",
       "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
       "date": "2026-07",
       "year": 2026,
@@ -19912,8 +20042,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1241,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1241",
+      "sourceLine": 1249,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1249",
       "title": "MMShopBench: A Real-Log Benchmark for Multimodal, Multi-Turn Shopping Agents",
       "date": "2026-07",
       "year": 2026,
@@ -19968,8 +20098,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1244,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1244",
+      "sourceLine": 1252,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1252",
       "title": "Workflow-GYM: Towards Long-Horizon Evaluation of Computer-Use Agentic Tasks in Real-World Professional Fields",
       "date": "2026-06",
       "year": 2026,
@@ -20024,8 +20154,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1247,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1247",
+      "sourceLine": 1255,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1255",
       "title": "OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
       "date": "2026-06",
       "year": 2026,
@@ -20085,8 +20215,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1250,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1250",
+      "sourceLine": 1258,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1258",
       "title": "WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments",
       "date": "2026-04",
       "year": 2026,
@@ -20141,8 +20271,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1253,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1253",
+      "sourceLine": 1261,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1261",
       "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments",
       "date": "2025-12",
       "year": 2025,
@@ -20206,8 +20336,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1256,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1256",
+      "sourceLine": 1264,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1264",
       "title": "ScienceBoard: Evaluating Multimodal Autonomous Agents in Realistic Scientific Workflows",
       "date": "2025-05",
       "year": 2025,
@@ -20266,8 +20396,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1259,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1259",
+      "sourceLine": 1267,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1267",
       "title": "ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use",
       "date": "2025-04",
       "year": 2025,
@@ -20331,8 +20461,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1262,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1262",
+      "sourceLine": 1270,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1270",
       "title": "WorldGUI: An Interactive Benchmark for Desktop GUI Automation from Any Starting Point",
       "date": "2025-02",
       "year": 2025,
@@ -20387,8 +20517,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1265,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1265",
+      "sourceLine": 1273,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1273",
       "title": "CRAB",
       "date": "2024-07",
       "year": 2024,
@@ -20447,8 +20577,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1268,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1268",
+      "sourceLine": 1276,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1276",
       "title": "AndroidWorld",
       "date": "2024-05",
       "year": 2024,
@@ -20507,8 +20637,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1271,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1271",
+      "sourceLine": 1279,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1279",
       "title": "OSWorld",
       "date": "2024-04",
       "year": 2024,
@@ -20577,8 +20707,8 @@
       "ancestors": [
         "benchmarks/6-4"
       ],
-      "sourceLine": 1275,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1275",
+      "sourceLine": 1283,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1283",
       "title": "VisualWebArena",
       "date": "2024-01",
       "year": 2024,
@@ -20637,8 +20767,8 @@
       "ancestors": [
         "benchmarks/6-5"
       ],
-      "sourceLine": 1281,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1281",
+      "sourceLine": 1289,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1289",
       "title": "360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents",
       "date": "2026-08",
       "year": 2026,
@@ -20697,8 +20827,8 @@
       "ancestors": [
         "benchmarks/6-5"
       ],
-      "sourceLine": 1284,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1284",
+      "sourceLine": 1292,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1292",
       "title": "Lingjing: A Simulation Testbed for Multi-Agent Embodied Tasks in Open-Ended Cities",
       "date": "2026-08",
       "year": 2026,
@@ -20753,8 +20883,8 @@
       "ancestors": [
         "benchmarks/6-5"
       ],
-      "sourceLine": 1287,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1287",
+      "sourceLine": 1295,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1295",
       "title": "GameWorld",
       "date": "2026-04",
       "year": 2026,
@@ -20813,8 +20943,8 @@
       "ancestors": [
         "benchmarks/6-5"
       ],
-      "sourceLine": 1290,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1290",
+      "sourceLine": 1298,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1298",
       "title": "SpatialScore",
       "date": "2025-05",
       "year": 2025,
@@ -20873,8 +21003,8 @@
       "ancestors": [
         "benchmarks/6-5"
       ],
-      "sourceLine": 1293,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1293",
+      "sourceLine": 1301,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1301",
       "title": "lmgame-Bench: How Good are LLMs at Playing Games?",
       "date": "2025-05",
       "year": 2025,
@@ -20938,8 +21068,8 @@
       "ancestors": [
         "benchmarks/6-5"
       ],
-      "sourceLine": 1296,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1296",
+      "sourceLine": 1304,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1304",
       "title": "MageBench",
       "date": "2024-12",
       "year": 2024,
@@ -20998,8 +21128,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1306,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1306",
+      "sourceLine": 1314,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1314",
       "title": "StationeryBench",
       "date": "2026-09",
       "year": 2026,
@@ -21058,8 +21188,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1309,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1309",
+      "sourceLine": 1317,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1317",
       "title": "Long-Horizon Embodied Decision-Making via Multimodal Memory Compression (DunphyBench / MeMento)",
       "date": "2026-08",
       "year": 2026,
@@ -21114,8 +21244,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1312,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1312",
+      "sourceLine": 1320,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1320",
       "title": "WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation",
       "date": "2026-08",
       "year": 2026,
@@ -21174,8 +21304,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1315,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1315",
+      "sourceLine": 1323,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1323",
       "title": "Compiling and Benchmarking Task-State Horizons for Embodied Agents (RoboGraph)",
       "date": "2026-08",
       "year": 2026,
@@ -21230,8 +21360,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1318,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1318",
+      "sourceLine": 1326,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1326",
       "title": "CMU-Drive and V2V-VLA: Cooperative Multi-Agent Unified Driving with Reasoning Benchmark and Vehicle-to-Vehicle Vision-Language-Action Models",
       "date": "2026-08",
       "year": 2026,
@@ -21286,8 +21416,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1321,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1321",
+      "sourceLine": 1329,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1329",
       "title": "RoboDojo",
       "date": "2026-07",
       "year": 2026,
@@ -21350,8 +21480,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1324,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1324",
+      "sourceLine": 1332,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1332",
       "title": "Drone-Bench",
       "date": "2026-07",
       "year": 2026,
@@ -21410,8 +21540,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1327,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1327",
+      "sourceLine": 1335,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1335",
       "title": "MECoBench",
       "date": "2026-06",
       "year": 2026,
@@ -21470,8 +21600,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1330,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1330",
+      "sourceLine": 1338,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1338",
       "title": "SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation",
       "date": "2026-06",
       "year": 2026,
@@ -21538,8 +21668,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1333,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1333",
+      "sourceLine": 1341,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1341",
       "title": "Tabero",
       "date": "2026-05",
       "year": 2026,
@@ -21598,8 +21728,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1336,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1336",
+      "sourceLine": 1344,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1344",
       "title": "RoboWits",
       "date": "2026-05",
       "year": 2026,
@@ -21666,8 +21796,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1339,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1339",
+      "sourceLine": 1347,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1347",
       "title": "ESI-Bench",
       "date": "2026-05",
       "year": 2026,
@@ -21734,8 +21864,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1342,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1342",
+      "sourceLine": 1350,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1350",
       "title": "CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation",
       "date": "2026-03",
       "year": 2026,
@@ -21798,8 +21928,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1345,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1345",
+      "sourceLine": 1353,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1353",
       "title": "ResponsibleRobotBench",
       "date": "2025-12",
       "year": 2025,
@@ -21858,8 +21988,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1348,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1348",
+      "sourceLine": 1356,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1356",
       "title": "SimWorld-Robotics",
       "date": "2025-09",
       "year": 2025,
@@ -21922,8 +22052,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1351,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1351",
+      "sourceLine": 1359,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1359",
       "title": "GroundAct",
       "date": "2025-08",
       "year": 2025,
@@ -21986,8 +22116,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1354,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1354",
+      "sourceLine": 1362,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1362",
       "title": "RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation",
       "date": "2025-06",
       "year": 2025,
@@ -22054,8 +22184,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1357,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1357",
+      "sourceLine": 1365,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1365",
       "title": "EmbodiedBench",
       "date": "2025-02",
       "year": 2025,
@@ -22118,8 +22248,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1360,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1360",
+      "sourceLine": 1368,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1368",
       "title": "VLABench",
       "date": "2024-12",
       "year": 2024,
@@ -22186,8 +22316,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1363,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1363",
+      "sourceLine": 1371,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1371",
       "title": "PARTNR",
       "date": "2024-10",
       "year": 2024,
@@ -22250,8 +22380,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1366,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1366",
+      "sourceLine": 1374,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1374",
       "title": "Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making",
       "date": "2024-10",
       "year": 2024,
@@ -22318,8 +22448,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1369,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1369",
+      "sourceLine": 1377,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1377",
       "title": "CHAIC",
       "date": "2024-09",
       "year": 2024,
@@ -22378,8 +22508,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1372,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1372",
+      "sourceLine": 1380,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1380",
       "title": "RoboCasa / RoboCasa365",
       "date": "2024-06",
       "year": 2024,
@@ -22442,8 +22572,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1375,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1375",
+      "sourceLine": 1383,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1383",
       "title": "RoboScript: Code Generation for Free-Form Manipulation Tasks Across Real and Simulation",
       "date": "2024-02",
       "year": 2024,
@@ -22498,8 +22628,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1378,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1378",
+      "sourceLine": 1386,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1386",
       "title": "LoTa-Bench",
       "date": "2024-02",
       "year": 2024,
@@ -22562,8 +22692,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1381,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1381",
+      "sourceLine": 1389,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1389",
       "title": "RoboEval / CodeBotler",
       "date": "2023-11",
       "year": 2023,
@@ -22626,8 +22756,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1384,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1384",
+      "sourceLine": 1392,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1392",
       "title": "Habitat 3.0",
       "date": "2023-10",
       "year": 2023,
@@ -22686,8 +22816,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1387,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1387",
+      "sourceLine": 1395,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1395",
       "title": "Open X-Embodiment",
       "date": "2023-10",
       "year": 2023,
@@ -22746,8 +22876,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1390,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1390",
+      "sourceLine": 1398,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1398",
       "title": "LIBERO",
       "date": "2023-06",
       "year": 2023,
@@ -22806,8 +22936,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1393,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1393",
+      "sourceLine": 1401,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1401",
       "title": "BEHAVIOR-1K",
       "date": "2022-09",
       "year": 2022,
@@ -22874,8 +23004,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1396,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1396",
+      "sourceLine": 1404,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1404",
       "title": "CALVIN",
       "date": "2021-12",
       "year": 2021,
@@ -22934,8 +23064,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1399,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1399",
+      "sourceLine": 1407,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1407",
       "title": "TEACh",
       "date": "2021-10",
       "year": 2021,
@@ -22994,8 +23124,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1402,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1402",
+      "sourceLine": 1410,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1410",
       "title": "ALFWorld",
       "date": "2020-10",
       "year": 2020,
@@ -23058,8 +23188,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1405,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1405",
+      "sourceLine": 1413,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1413",
       "title": "ALFRED",
       "date": "2019-12",
       "year": 2019,
@@ -23122,8 +23252,8 @@
       "ancestors": [
         "benchmarks/6-6"
       ],
-      "sourceLine": 1408,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1408",
+      "sourceLine": 1416,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1416",
       "title": "JRDB",
       "date": "2019-10",
       "year": 2019,
@@ -23182,8 +23312,8 @@
       "ancestors": [
         "engineering/7-1"
       ],
-      "sourceLine": 1422,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1422",
+      "sourceLine": 1430,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1430",
       "title": "FlashRT",
       "date": "",
       "year": null,
@@ -23236,8 +23366,8 @@
       "ancestors": [
         "engineering/7-1"
       ],
-      "sourceLine": 1423,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1423",
+      "sourceLine": 1431,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1431",
       "title": "JarvisHub",
       "date": "",
       "year": null,
@@ -23298,8 +23428,8 @@
       "ancestors": [
         "engineering/7-1"
       ],
-      "sourceLine": 1424,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1424",
+      "sourceLine": 1432,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1432",
       "title": "OpenAI Agents SDK",
       "date": "",
       "year": null,
@@ -23352,8 +23482,8 @@
       "ancestors": [
         "engineering/7-1"
       ],
-      "sourceLine": 1425,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1425",
+      "sourceLine": 1433,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1433",
       "title": "Google ADK",
       "date": "",
       "year": null,
@@ -23414,8 +23544,8 @@
       "ancestors": [
         "engineering/7-1"
       ],
-      "sourceLine": 1426,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1426",
+      "sourceLine": 1434,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1434",
       "title": "LiveKit Agents",
       "date": "",
       "year": null,
@@ -23468,8 +23598,8 @@
       "ancestors": [
         "engineering/7-1"
       ],
-      "sourceLine": 1427,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1427",
+      "sourceLine": 1435,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1435",
       "title": "Pipecat",
       "date": "",
       "year": null,
@@ -23522,8 +23652,8 @@
       "ancestors": [
         "engineering/7-1"
       ],
-      "sourceLine": 1428,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1428",
+      "sourceLine": 1436,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1436",
       "title": "TEN Framework",
       "date": "",
       "year": null,
@@ -23578,8 +23708,8 @@
         "engineering/7-1",
         "engineering/7-1/interoperability-protocols"
       ],
-      "sourceLine": 1436,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1436",
+      "sourceLine": 1444,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1444",
       "title": "Model Context Protocol (MCP)",
       "date": "",
       "year": null,
@@ -23634,8 +23764,8 @@
         "engineering/7-1",
         "engineering/7-1/interoperability-protocols"
       ],
-      "sourceLine": 1437,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1437",
+      "sourceLine": 1445,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1445",
       "title": "Agent2Agent (A2A)",
       "date": "",
       "year": null,
@@ -23688,8 +23818,8 @@
       "ancestors": [
         "engineering/7-2"
       ],
-      "sourceLine": 1447,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1447",
+      "sourceLine": 1455,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1455",
       "title": "Browser Use",
       "date": "",
       "year": null,
@@ -23747,8 +23877,8 @@
       "ancestors": [
         "engineering/7-2"
       ],
-      "sourceLine": 1448,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1448",
+      "sourceLine": 1456,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1456",
       "title": "Cua",
       "date": "",
       "year": null,
@@ -23801,8 +23931,8 @@
       "ancestors": [
         "engineering/7-2"
       ],
-      "sourceLine": 1449,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1449",
+      "sourceLine": 1457,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1457",
       "title": "Playwright CLI",
       "date": "",
       "year": null,
@@ -23855,8 +23985,8 @@
       "ancestors": [
         "engineering/7-2"
       ],
-      "sourceLine": 1450,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1450",
+      "sourceLine": 1458,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1458",
       "title": "BrowserGym",
       "date": "",
       "year": null,
@@ -23911,8 +24041,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1460,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1460",
+      "sourceLine": 1468,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1468",
       "title": "XPolicyLab",
       "date": "",
       "year": null,
@@ -23983,8 +24113,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1461,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1461",
+      "sourceLine": 1469,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1469",
       "title": "LeRobot",
       "date": "",
       "year": null,
@@ -24039,8 +24169,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1462,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1462",
+      "sourceLine": 1470,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1470",
       "title": "ROS 2",
       "date": "",
       "year": null,
@@ -24095,8 +24225,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1463,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1463",
+      "sourceLine": 1471,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1471",
       "title": "AgenticROS",
       "date": "",
       "year": null,
@@ -24151,8 +24281,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1464,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1464",
+      "sourceLine": 1472,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1472",
       "title": "DimOS",
       "date": "",
       "year": null,
@@ -24207,8 +24337,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1465,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1465",
+      "sourceLine": 1473,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1473",
       "title": "EmbodiedAgents",
       "date": "",
       "year": null,
@@ -24263,8 +24393,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1466,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1466",
+      "sourceLine": 1474,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1474",
       "title": "RAI",
       "date": "",
       "year": null,
@@ -24319,8 +24449,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1467,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1467",
+      "sourceLine": 1475,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1475",
       "title": "Strands Robots",
       "date": "",
       "year": null,
@@ -24375,8 +24505,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1468,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1468",
+      "sourceLine": 1476,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1476",
       "title": "ROSA",
       "date": "",
       "year": null,
@@ -24431,8 +24561,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1469,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1469",
+      "sourceLine": 1477,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1477",
       "title": "ROS MCP Server",
       "date": "",
       "year": null,
@@ -24487,8 +24617,8 @@
         "engineering/7-3",
         "engineering/7-3/robot-runtimes-and-interfaces"
       ],
-      "sourceLine": 1470,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1470",
+      "sourceLine": 1478,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1478",
       "title": "Reachy Mini / Nemotron tutorial",
       "date": "",
       "year": null,
@@ -24543,8 +24673,8 @@
         "engineering/7-3",
         "engineering/7-3/perception-and-grasp-backends"
       ],
-      "sourceLine": 1476,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1476",
+      "sourceLine": 1484,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1484",
       "title": "Grounded SAM 2",
       "date": "",
       "year": null,
@@ -24599,8 +24729,8 @@
         "engineering/7-3",
         "engineering/7-3/perception-and-grasp-backends"
       ],
-      "sourceLine": 1477,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1477",
+      "sourceLine": 1485,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1485",
       "title": "SAM 3",
       "date": "",
       "year": null,
@@ -24655,8 +24785,8 @@
         "engineering/7-3",
         "engineering/7-3/perception-and-grasp-backends"
       ],
-      "sourceLine": 1478,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1478",
+      "sourceLine": 1486,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1486",
       "title": "FoundationPose",
       "date": "",
       "year": null,
@@ -24711,8 +24841,8 @@
         "engineering/7-3",
         "engineering/7-3/perception-and-grasp-backends"
       ],
-      "sourceLine": 1479,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1479",
+      "sourceLine": 1487,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1487",
       "title": "BundleSDF",
       "date": "",
       "year": null,
@@ -24767,8 +24897,8 @@
         "engineering/7-3",
         "engineering/7-3/perception-and-grasp-backends"
       ],
-      "sourceLine": 1480,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1480",
+      "sourceLine": 1488,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1488",
       "title": "Contact-GraspNet",
       "date": "",
       "year": null,
@@ -24823,8 +24953,8 @@
         "engineering/7-3",
         "engineering/7-3/perception-and-grasp-backends"
       ],
-      "sourceLine": 1481,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1481",
+      "sourceLine": 1489,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1489",
       "title": "AnyGrasp",
       "date": "",
       "year": null,
@@ -24879,8 +25009,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1487,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1487",
+      "sourceLine": 1495,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1495",
       "title": "MoveIt 2",
       "date": "",
       "year": null,
@@ -24935,8 +25065,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1488,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1488",
+      "sourceLine": 1496,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1496",
       "title": "Nav2",
       "date": "",
       "year": null,
@@ -24991,8 +25121,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1489,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1489",
+      "sourceLine": 1497,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1497",
       "title": "cuRobo",
       "date": "",
       "year": null,
@@ -25047,8 +25177,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1490,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1490",
+      "sourceLine": 1498,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1498",
       "title": "PyRoki",
       "date": "",
       "year": null,
@@ -25103,8 +25233,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1491,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1491",
+      "sourceLine": 1499,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1499",
       "title": "MPlib",
       "date": "",
       "year": null,
@@ -25159,8 +25289,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1492,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1492",
+      "sourceLine": 1500,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1500",
       "title": "Mink",
       "date": "",
       "year": null,
@@ -25215,8 +25345,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1493,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1493",
+      "sourceLine": 1501,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1501",
       "title": "Pink",
       "date": "",
       "year": null,
@@ -25271,8 +25401,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1494,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1494",
+      "sourceLine": 1502,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1502",
       "title": "ros2_control",
       "date": "",
       "year": null,
@@ -25327,8 +25457,8 @@
         "engineering/7-3",
         "engineering/7-3/planning-and-execution-backends"
       ],
-      "sourceLine": 1495,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1495",
+      "sourceLine": 1503,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1503",
       "title": "BehaviorTree.CPP",
       "date": "",
       "year": null,
@@ -25383,8 +25513,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1501,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1501",
+      "sourceLine": 1509,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1509",
       "title": "AI2-THOR",
       "date": "",
       "year": null,
@@ -25439,8 +25569,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1502,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1502",
+      "sourceLine": 1510,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1510",
       "title": "ManiSkill",
       "date": "",
       "year": null,
@@ -25495,8 +25625,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1503,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1503",
+      "sourceLine": 1511,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1511",
       "title": "robosuite",
       "date": "",
       "year": null,
@@ -25551,8 +25681,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1504,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1504",
+      "sourceLine": 1512,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1512",
       "title": "MetaDrive",
       "date": "",
       "year": null,
@@ -25607,8 +25737,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1505,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1505",
+      "sourceLine": 1513,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1513",
       "title": "Isaac Lab",
       "date": "",
       "year": null,
@@ -25663,8 +25793,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1506,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1506",
+      "sourceLine": 1514,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1514",
       "title": "OmniSim",
       "date": "",
       "year": null,
@@ -25719,8 +25849,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1507,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1507",
+      "sourceLine": 1515,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1515",
       "title": "mjbatch",
       "date": "",
       "year": null,
@@ -25775,8 +25905,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1508,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1508",
+      "sourceLine": 1516,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1516",
       "title": "EmbodiedGen V2",
       "date": "",
       "year": null,
@@ -25839,8 +25969,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1509,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1509",
+      "sourceLine": 1517,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1517",
       "title": "SimFoundry",
       "date": "",
       "year": null,
@@ -25903,8 +26033,8 @@
         "engineering/7-3",
         "engineering/7-3/simulation-and-data-pipelines"
       ],
-      "sourceLine": 1510,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1510",
+      "sourceLine": 1518,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1518",
       "title": "Video to Data (V2D)",
       "date": "",
       "year": null,
@@ -25957,8 +26087,8 @@
       "ancestors": [
         "engineering/7-4"
       ],
-      "sourceLine": 1518,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1518",
+      "sourceLine": 1526,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1526",
       "title": "AgentLab",
       "date": "",
       "year": null,
@@ -26011,8 +26141,8 @@
       "ancestors": [
         "engineering/7-4"
       ],
-      "sourceLine": 1519,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1519",
+      "sourceLine": 1527,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1527",
       "title": "lmms-eval",
       "date": "",
       "year": null,
@@ -26065,8 +26195,8 @@
       "ancestors": [
         "engineering/7-4"
       ],
-      "sourceLine": 1520,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1520",
+      "sourceLine": 1528,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1528",
       "title": "Inspect AI",
       "date": "",
       "year": null,
@@ -26127,8 +26257,8 @@
       "ancestors": [
         "engineering/7-4"
       ],
-      "sourceLine": 1521,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1521",
+      "sourceLine": 1529,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1529",
       "title": "Inspect Robots",
       "date": "",
       "year": null,
@@ -26189,8 +26319,8 @@
       "ancestors": [
         "engineering/7-4"
       ],
-      "sourceLine": 1522,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1522",
+      "sourceLine": 1530,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1530",
       "title": "VLA Evaluation Harness (Ai2)",
       "date": "",
       "year": null,
@@ -26243,8 +26373,8 @@
       "ancestors": [
         "engineering/7-4"
       ],
-      "sourceLine": 1523,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1523",
+      "sourceLine": 1531,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1531",
       "title": "GPT 6 Astra as an Embodied Policy",
       "date": "",
       "year": null,
@@ -26305,8 +26435,8 @@
       "ancestors": [
         "skills/8-1"
       ],
-      "sourceLine": 1537,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1537",
+      "sourceLine": 1545,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1545",
       "title": "Agent Skills",
       "date": "",
       "year": null,
@@ -26367,8 +26497,8 @@
       "ancestors": [
         "skills/8-1"
       ],
-      "sourceLine": 1538,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1538",
+      "sourceLine": 1546,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1546",
       "title": "skills CLI and skills.sh",
       "date": "",
       "year": null,
@@ -26429,8 +26559,8 @@
       "ancestors": [
         "skills/8-1"
       ],
-      "sourceLine": 1539,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1539",
+      "sourceLine": 1547,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1547",
       "title": "Skills Over MCP",
       "date": "",
       "year": null,
@@ -26483,8 +26613,8 @@
       "ancestors": [
         "skills/8-1"
       ],
-      "sourceLine": 1540,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1540",
+      "sourceLine": 1548,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1548",
       "title": "OpenAI Plugins",
       "date": "",
       "year": null,
@@ -26537,8 +26667,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1548,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1548",
+      "sourceLine": 1556,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1556",
       "title": "Anthropic Skills",
       "date": "",
       "year": null,
@@ -26606,8 +26736,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1549,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1549",
+      "sourceLine": 1557,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1557",
       "title": "Gemini API Skills",
       "date": "",
       "year": null,
@@ -26675,8 +26805,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1550,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1550",
+      "sourceLine": 1558,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1558",
       "title": "NVIDIA Agent Skills",
       "date": "",
       "year": null,
@@ -26744,8 +26874,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1551,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1551",
+      "sourceLine": 1559,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1559",
       "title": "ros-skill",
       "date": "",
       "year": null,
@@ -26821,8 +26951,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1552,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1552",
+      "sourceLine": 1560,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1560",
       "title": "Real2Gym",
       "date": "",
       "year": null,
@@ -26898,8 +27028,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1553,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1553",
+      "sourceLine": 1561,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1561",
       "title": "Browser Use Skill",
       "date": "",
       "year": null,
@@ -26975,8 +27105,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1554,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1554",
+      "sourceLine": 1562,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1562",
       "title": "Cua GUI Automation Skill",
       "date": "",
       "year": null,
@@ -27052,8 +27182,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1555,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1555",
+      "sourceLine": 1563,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1563",
       "title": "Playwright CLI Skill",
       "date": "",
       "year": null,
@@ -27129,8 +27259,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1556,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1556",
+      "sourceLine": 1564,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1564",
       "title": "Hugging Face Skills",
       "date": "",
       "year": null,
@@ -27198,8 +27328,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1557,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1557",
+      "sourceLine": 1565,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1565",
       "title": "LiveKit Agent Skills",
       "date": "",
       "year": null,
@@ -27267,8 +27397,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1558,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1558",
+      "sourceLine": 1566,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1566",
       "title": "Remotion Agent Skills",
       "date": "",
       "year": null,
@@ -27336,8 +27466,8 @@
       "ancestors": [
         "skills/8-2"
       ],
-      "sourceLine": 1559,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1559",
+      "sourceLine": 1567,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1567",
       "title": "Pexo Skills",
       "date": "",
       "year": null,
@@ -27401,8 +27531,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1569,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1569",
+      "sourceLine": 1577,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1577",
       "title": "Awesome Agentic Visual Generation Model",
       "date": "",
       "year": null,
@@ -27446,8 +27576,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1570,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1570",
+      "sourceLine": 1578,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1578",
       "title": "Awesome Proactive Agent",
       "date": "",
       "year": null,
@@ -27491,8 +27621,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1571,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1571",
+      "sourceLine": 1579,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1579",
       "title": "Awesome Agentic Gen",
       "date": "",
       "year": null,
@@ -27536,8 +27666,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1572,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1572",
+      "sourceLine": 1580,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1580",
       "title": "Awesome Agentic MLLMs",
       "date": "",
       "year": null,
@@ -27581,8 +27711,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1573,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1573",
+      "sourceLine": 1581,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1581",
       "title": "GUI Agents Paper List",
       "date": "",
       "year": null,
@@ -27626,8 +27756,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1574,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1574",
+      "sourceLine": 1582,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1582",
       "title": "Awesome GUI Agents",
       "date": "",
       "year": null,
@@ -27671,8 +27801,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1575,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1575",
+      "sourceLine": 1583,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1583",
       "title": "Awesome UI Agents",
       "date": "",
       "year": null,
@@ -27716,8 +27846,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1576,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1576",
+      "sourceLine": 1584,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1584",
       "title": "Awesome GUI Agent",
       "date": "",
       "year": null,
@@ -27761,8 +27891,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1577,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1577",
+      "sourceLine": 1585,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1585",
       "title": "Awesome Robot Use Agent",
       "date": "",
       "year": null,
@@ -27814,8 +27944,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1578,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1578",
+      "sourceLine": 1586,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1586",
       "title": "Awesome Multimodal Embodied Agents",
       "date": "",
       "year": null,
@@ -27859,8 +27989,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1579,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1579",
+      "sourceLine": 1587,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1587",
       "title": "Awesome Embodied Data Pyramid",
       "date": "",
       "year": null,
@@ -27904,8 +28034,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1580,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1580",
+      "sourceLine": 1588,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1588",
       "title": "datasets.bot",
       "date": "",
       "year": null,
@@ -27949,8 +28079,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1581,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1581",
+      "sourceLine": 1589,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1589",
       "title": "Awesome Multimodal Modeling",
       "date": "",
       "year": null,
@@ -27994,8 +28124,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1582,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1582",
+      "sourceLine": 1590,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1590",
       "title": "Awesome World Models",
       "date": "",
       "year": null,
@@ -28039,8 +28169,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1583,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1583",
+      "sourceLine": 1591,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1591",
       "title": "Awesome Large Multimodal Agents",
       "date": "",
       "year": null,
@@ -28084,8 +28214,8 @@
       "section": "related",
       "path": [],
       "ancestors": [],
-      "sourceLine": 1584,
-      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1584",
+      "sourceLine": 1592,
+      "sourceUrl": "https://github.com/OpenEnvision/Awesome-Multimodal-Agent/blob/main/README.md?plain=1#L1592",
       "title": "Awesome LLMs for Video Understanding",
       "date": "",
       "year": null,
@@ -28124,6 +28254,6 @@
       "anchor": null
     }
   ],
-  "sourceHash": "997ef700b241c63b0fa965d09f10295a73bf31f86bd7eca53f759e4e191019a7",
+  "sourceHash": "257019ce0e239126fe0d78952aaf5992344053e7160a476c59950074d3f73018",
   "updated": "2026-09-15"
 }

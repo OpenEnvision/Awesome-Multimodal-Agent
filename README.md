@@ -637,6 +637,10 @@ These works enable multimodal agents but are not presented as end-to-end systems
   *2026-07 · Preprint* — **Artifact:** Model — **Role:** Generalist video understanding with spatiotemporal compression and proactive online response — **Modalities / channels:** Video; Language  
   **Canonical placement:** The primary artifact is a trained video-language model, not a separate task-execution runtime
 
+- **JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence** [![arXiv 2606.14777](https://img.shields.io/badge/arXiv-2606.14777-b31b1b.svg)](https://arxiv.org/abs/2606.14777) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/jd-opensource/JoyAI-VL-Interaction)  
+  *2026-06 · Preprint* — **Artifact:** Interaction model + streaming system — **Role:** Learned silence, response and asynchronous background-delegation decisions with hierarchical video summaries — **Modalities / channels:** Video; Language; Background tool/model results  
+  **Canonical placement:** The primary artifacts are a vision-first trained interaction model and concurrent serving framework; the background brain and ASR/TTS adapters are pluggable
+
 - **DyaPlex** [![arXiv 2606.03874](https://img.shields.io/badge/arXiv-2606.03874-b31b1b.svg)](https://arxiv.org/abs/2606.03874)  
   *2026-06 · Preprint* — **Artifact:** Model — **Role:** Streaming full-duplex speech-motion generation for dyadic interaction — **Modalities / channels:** Speech; Human and agent motion  
   **Canonical placement:** Reciprocal streaming behavior is learned inside the model; a separately evaluated planning or tool-use layer is not contributed
@@ -765,6 +769,10 @@ This branch includes GUI action models, robot VLAs, and policies that span digit
   **Canonical placement:** One token policy spans many domains, but planning, feedback handling, and tool orchestration are not separately evaluated
 
 ### 4.3 Spatial, Memory, and Tool-Use Models and Components
+
+- **MJev-Spatial: System One Spatial Intelligence via Native Attention Matching** [![arXiv 2610.22276](https://img.shields.io/badge/arXiv-2610.22276-b31b1b.svg)](https://arxiv.org/abs/2610.22276) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/Fr0zenCrane/MJev-Spatial)  
+  *2026-10 · Preprint* — **Artifact:** Spatial decision model / component — **Role:** Native query/key candidate scoring for spatial choices, numerical bins and coarse-to-fine 2D pointing — **Modalities / channels:** Images or ordered video observations; Language  
+  **Canonical placement:** Evaluates a reusable spatial-perception readout on VQA and pointing tasks, including robot-oriented benchmarks; a robot action policy is not the evaluated artifact
 
 - **MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents** <a id="memo"></a> [![arXiv 2609.07471](https://img.shields.io/badge/arXiv-2609.07471-b31b1b.svg)](https://arxiv.org/abs/2609.07471)  
   *2026-09 · Preprint* — **Artifact:** Evidence-selection and memory-readout component — **Role:** Allocates evidence to textual, rendered-visual, or dual-channel carriers under a context budget — **Modalities / channels:** Retrieved text; Rendered document images; Source metadata  
