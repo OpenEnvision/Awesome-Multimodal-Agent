@@ -774,6 +774,10 @@ This branch includes GUI action models, robot VLAs, and policies that span digit
   *2026-10 · Preprint* — **Artifact:** Spatial decision model / component — **Role:** Native query/key candidate scoring for spatial choices, numerical bins and coarse-to-fine 2D pointing — **Modalities / channels:** Images or ordered video observations; Language  
   **Canonical placement:** Evaluates a reusable spatial-perception readout on VQA and pointing tasks, including robot-oriented benchmarks; a robot action policy is not the evaluated artifact
 
+- **VideoJev: System One Model for Video Understanding and Interaction** [![arXiv 2610.18615](https://img.shields.io/badge/arXiv-2610.18615-b31b1b.svg)](https://arxiv.org/abs/2610.18615) [![Code](https://img.shields.io/badge/Code-GitHub-16a34a.svg?logo=github)](https://github.com/MCG-NJU/VideoJev)  
+  *2026-10 · Preprint* — **Artifact:** Video decision model / component — **Role:** Shared candidate-scoring head for temporal intervals and textual options with joint/cached video-prefix computation — **Modalities / channels:** Video; Language  
+  **Canonical placement:** Evaluates a reusable structured decision interface through temporal grounding and multiple-choice video QA, supplying event spans or answer choices that a caller can compose into workflows
+
 - **MEMO: Multimodal Evidence Memory Organization for Long-Horizon LLM Agents** <a id="memo"></a> [![arXiv 2609.07471](https://img.shields.io/badge/arXiv-2609.07471-b31b1b.svg)](https://arxiv.org/abs/2609.07471)  
   *2026-09 · Preprint* — **Artifact:** Evidence-selection and memory-readout component — **Role:** Allocates evidence to textual, rendered-visual, or dual-channel carriers under a context budget — **Modalities / channels:** Retrieved text; Rendered document images; Source metadata  
   **Canonical placement:** The learned memory organizer is the evaluated component; rendering text as images does not establish independent visual information in every downstream task
